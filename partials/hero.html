@@ -1,0 +1,179 @@
+<section
+  id="hero"
+  class="relative isolate min-h-screen overflow-hidden text-ink
+  bg-[linear-gradient(135deg,#E0E2E1_0%,#F4F4F2_46%,#D8DAD9_100%)]"
+>
+
+  <!-- Full background image -->
+  <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+    <img
+      src="assets/hero2.png"
+      alt="Hero achtergrond Lekker Bezig Man"
+      class="h-full w-full object-cover object-center opacity-100"
+    >
+
+    <!-- Left fade -->
+    <div
+      class="absolute inset-y-0 left-0 w-[42%]
+      bg-[linear-gradient(90deg,rgba(17,20,23,0.10)_0%,rgba(31,36,42,0.04)_48%,transparent_100%)]"
+    ></div>
+
+    <!-- Top fade -->
+    <div
+      class="absolute inset-x-0 top-0 h-40
+      bg-[linear-gradient(180deg,rgba(17,20,23,0.10)_0%,rgba(31,36,42,0.04)_48%,transparent_100%)]"
+    ></div>
+
+    <!-- Bottom fade -->
+    <div
+      class="absolute inset-x-0 bottom-0 h-48
+      bg-[linear-gradient(0deg,rgba(17,20,23,0.12)_0%,rgba(31,36,42,0.04)_46%,transparent_100%)]"
+    ></div>
+  </div>
+
+<!-- Hero content -->
+<div
+  class="relative z-30 mx-auto flex min-h-screen max-w-[1440px] items-start
+  px-6 pt-32 sm:px-10 sm:pt-36 lg:px-20 lg:pt-40"
+>
+  <div class="relative w-full max-w-[760px]">
+
+    <!-- Mobile full-screen soft SVG background -->
+    <svg
+      class="pointer-events-none absolute left-1/2 top-1/2 z-0 h-[100vh] w-[100vw] max-w-none -translate-x-1/2 -translate-y-1/2
+      sm:-left-28 sm:top-0 sm:h-[620px] sm:w-[900px] sm:translate-x-0 sm:translate-y-0"
+      viewBox="0 0 900 620"
+      fill="none"
+      preserveAspectRatio="none"
+      aria-hidden="true"
+    >
+      <!-- Основной плавный растворяющийся переход -->
+      <path
+        d="M0 0H900V620H0V0Z"
+        fill="url(#heroFullScreenMist)"
+      />
+
+      <!-- Белая дымка только под описанием -->
+      <path
+        d="M72 338C150 300 272 306 374 318C490 332 620 318 676 362C742 414 678 494 548 510C438 524 332 498 222 510C118 522 42 490 36 426C30 378 42 352 72 338Z"
+        fill="url(#heroDescriptionMist)"
+      />
+
+      <defs>
+        <radialGradient
+          id="heroFullScreenMist"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(220 330) rotate(-8) scale(520 410)"
+        >
+          <stop offset="0" stop-color="#E8ECE9" stop-opacity="0.22" />
+          <stop offset="0.36" stop-color="#E1E6E3" stop-opacity="0.14" />
+          <stop offset="0.7" stop-color="#D8DEDA" stop-opacity="0.06" />
+          <stop offset="1" stop-color="#D8DEDA" stop-opacity="0" />
+        </radialGradient>
+
+        <radialGradient
+  id="heroDescriptionMist"
+  cx="0"
+  cy="0"
+  r="1"
+  gradientUnits="userSpaceOnUse"
+  gradientTransform="translate(500 408) rotate(-4) scale(360 145)"
+>
+  <stop offset="0" stop-color="#F6F7F5" stop-opacity="0.96" />
+  <stop offset="0.26" stop-color="#EEF1EE" stop-opacity="0.86" />
+  <stop offset="0.52" stop-color="#E4E9E5" stop-opacity="0.52" />
+  <stop offset="0.78" stop-color="#DDE3DF" stop-opacity="0.20" />
+  <stop offset="1" stop-color="#DDE3DF" stop-opacity="0" />
+</radialGradient>
+      </defs>
+    </svg>
+
+    <!-- Content over SVG -->
+    <div class="relative z-10">
+
+      <!-- Label -->
+      <div class="relative top-6 inline-flex flex-col gap-1">
+        <p class="text-[12px] font-black uppercase tracking-[0.34em] text-[#486636]">
+          Lekker bezig man
+        </p>
+        <span class="h-px w-full bg-[#486636]"></span>
+      </div>
+
+      <!-- Title -->
+      <h1
+        class="mt-14 font-display text-[clamp(3.2rem,9.2vw,7rem)]
+        font-light leading-[0.95] tracking-[-0.07em]
+        text-[#111417]
+        lg:text-[clamp(4.7rem,6.5vw,7.8rem)]"
+      >
+        VAN GEDOE
+        <span class="block pr-5 text-[#486636]">
+          NAAR GEDAAN
+        </span>
+      </h1>
+
+      <!-- Text -->
+      <div class="relative mt-10 max-w-[540px] border-l-4 border-[#5F7F45] pl-6">
+        <p
+          class="text-[17px] leading-[1.85] text-[#101312]
+          drop-shadow-[0_1px_0_rgba(255,255,255,0.62)]
+          sm:text-[18px]"
+        >
+          Wij zijn een allround klusbedrijf met een duidelijke werkwijze:
+          niet alleen uitvoeren wat gevraagd wordt, maar het geheel overzien
+          en verantwoordelijkheid nemen voor het eindresultaat.
+        </p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="mt-10 flex flex-col gap-5 sm:flex-row">
+
+        <a
+          href="#offerte"
+          class="group relative isolate inline-flex items-center justify-center overflow-hidden rounded-2xl
+          bg-[linear-gradient(120deg,#3E5B32_0%,#58773F_28%,#7F9A61_48%,#4F6F3A_68%,#243D1E_100%)]
+          bg-[length:240%_240%]
+          px-5 py-4 text-[13px] font-black text-white
+          shadow-[0_16px_42px_rgba(47,74,39,.34)]
+          transition duration-300 hover:-translate-y-0.5 hover:animate-gradientShift
+          hover:shadow-[0_22px_58px_rgba(47,74,39,.42)]"
+        >
+          <span class="relative z-10 flex items-center gap-2">
+            <i data-lucide="clipboard-list" class="h-4 w-4"></i>
+            OFFERTE AANVRAGEN
+          </span>
+
+          <span class="relative z-10 ml-2 transition duration-300 group-hover:translate-x-1">
+            →
+          </span>
+        </a>
+
+        <a
+          href="#diensten"
+          class="group relative isolate inline-flex items-center justify-center overflow-hidden rounded-2xl
+          bg-[linear-gradient(120deg,#1F242A_0%,#343C43_28%,#4A535A_48%,#2F383D_68%,#171B20_100%)]
+          bg-[length:240%_240%]
+          px-5 py-4 text-[13px] font-black text-white
+          shadow-[0_16px_42px_rgba(31,36,42,.28)]
+          backdrop-blur-xl
+          transition duration-300 hover:-translate-y-0.5 hover:animate-gradientShift
+          hover:shadow-[0_22px_58px_rgba(31,36,42,.38)]"
+        >
+          <span class="relative z-10 flex items-center gap-2">
+            <i data-lucide="layout-grid" class="h-4 w-4 text-[#A8BD8A]"></i>
+            BEKIJK DIENSTEN
+          </span>
+
+          <span class="relative z-10 ml-2 text-[#A8BD8A] transition duration-300 group-hover:translate-x-1">
+            →
+          </span>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</div>
+</section>
