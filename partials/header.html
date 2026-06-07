@@ -3,157 +3,132 @@
   bg-[#1F242A]/95 shadow-[0_14px_50px_rgba(0,0,0,0.22)] backdrop-blur-2xl"
 >
   <div
-    class="mx-auto flex h-[78px] w-full max-w-[1440px] items-center justify-between
+    class="mx-auto flex h-[78px] w-full max-w-[1360px] items-center justify-between
     px-6 sm:px-10 lg:px-16 xl:px-20"
   >
 
-  <!-- Logo: button style -->
-<a
-  href="#hero"
-  class="group inline-flex items-center gap-3 rounded-2xl border border-white/12
-  bg-white/[0.06] px-3.5 py-0.5
-  shadow-[0_14px_40px_rgba(0,0,0,0.18)]
-  backdrop-blur-xl transition duration-300
-  hover:-translate-y-0.5
-  hover:border-[#A8BD8A]/70
-  hover:bg-[#A8BD8A]/12"
-  aria-label="Ga naar home"
->
-  <img
-    src="assets/logo.jpg"
-    alt="Logo van LekkerBezigMan"
-    class="h-10 w-auto
-    transition duration-300
-    [filter:brightness(0)_invert(1)]
-    group-hover:[filter:brightness(0)_saturate(100%)_invert(79%)_sepia(13%)_saturate(604%)_hue-rotate(42deg)_brightness(91%)_contrast(87%)]
-    group-hover:scale-[1.03]"
-  >
+    <!-- Logo -->
+    <a
+      href="#hero"
+      class="group inline-flex items-center gap-3 rounded-md border border-white/12
+      bg-white/[0.06] px-3.5 py-0.5
+      shadow-[0_14px_40px_rgba(0,0,0,0.18)]
+      backdrop-blur-xl transition duration-300
+      hover:-translate-y-0.5 hover:border-[#A8BD8A]/70 hover:bg-[#A8BD8A]/12"
+      aria-label="Ga naar home"
+    >
+      <img
+        src="assets/logo.jpg"
+        alt="Logo van LekkerBezigMan"
+        class="h-10 w-auto transition duration-300
+        [filter:brightness(0)_invert(1)]
+        group-hover:[filter:brightness(0)_saturate(100%)_invert(79%)_sepia(13%)_saturate(604%)_hue-rotate(42deg)_brightness(91%)_contrast(87%)]
+        group-hover:scale-[1.03]"
+      >
 
-<!-- Divider -->
-<span
-  class="hidden h-8 w-[1px] bg-white transition duration-300
-  group-hover:bg-[#A8BD8A]/70 sm:block"
-></span>
+      <span
+        class="hidden h-8 w-[1px] bg-white transition duration-300
+        group-hover:bg-[#A8BD8A]/70 sm:block"
+      ></span>
 
-  <!-- Text -->
-  <span
-    class="hidden text-[10px] font-black uppercase leading-tight tracking-[0.16em]
-    text-white transition duration-300 group-hover:text-[#A8BD8A] sm:block"
-  >
-    Lekker<br>Bezig Man
-  </span>
-</a>
+      <span
+        class="hidden text-[10px] font-black uppercase leading-tight tracking-[0.16em]
+        text-white transition duration-300 group-hover:text-[#A8BD8A] sm:block"
+      >
+        Lekker<br>Bezig Man
+      </span>
+    </a>
 
-<!-- Desktop nav: plain white text links, underline on hover only -->
-<nav
-  class="hidden items-center gap-10 lg:flex"
-  aria-label="Hoofdmenu"
->
-  <a
-    href="#hero"
-    class="group relative py-2 text-sm font-extrabold text-white transition duration-300"
-  >
-    HOME
-    <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-100 bg-[#A8BD8A] transition duration-300"></span>
-  </a>
+    <!-- Desktop nav -->
+    <nav class="hidden items-center gap-10 lg:flex" aria-label="Hoofdmenu">
+      <a href="#hero" class="group relative py-2 text-sm font-extrabold text-white transition duration-300">
+        HOME
+        <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-100 bg-[#A8BD8A] transition duration-300"></span>
+      </a>
 
-  <a
-    href="#over-ons"
-    class="group relative py-2 text-sm font-bold text-white transition duration-300"
-  >
-    OVER ONS
-    <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
-  </a>
+      <a href="#over-ons" class="group relative py-2 text-sm font-bold text-white transition duration-300">
+        OVER ONS
+        <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
+      </a>
 
-  <a
-    href="#diensten"
-    class="group relative py-2 text-sm font-bold text-white transition duration-300"
-  >
-    DIENSTEN
-    <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
-  </a>
+      <a href="#diensten" class="group relative py-2 text-sm font-bold text-white transition duration-300">
+        DIENSTEN
+        <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
+      </a>
 
-  <a
-    href="#prijzen"
-    class="group relative py-2 text-sm font-bold text-white transition duration-300"
-  >
-    PRIJZEN
-    <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
-  </a>
+      <a href="#prijzen" class="group relative py-2 text-sm font-bold text-white transition duration-300">
+        PRIJZEN
+        <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
+      </a>
 
-  <a
-    href="#contacten"
-    class="group relative py-2 text-sm font-bold text-white transition duration-300"
-  >
-    CONTACT
-    <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
-  </a>
-</nav>
+            <a href="#offerte" class="group relative py-2 text-sm font-bold text-white transition duration-300">
+        OFFERTE
+        <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
+      </a>
+
+      <a href="#contacten" class="group relative py-2 text-sm font-bold text-white transition duration-300">
+        CONTACT
+        <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
+      </a>
+    </nav>
 
     <div class="flex items-center gap-4">
 
-      <!-- CTA: button style -->
+<!-- Phone CTA -->
 <a
-  href="#offerte"
-  class="group relative isolate inline-flex items-center justify-center overflow-hidden rounded-2xl
-  bg-[linear-gradient(120deg,#3E5B32_0%,#58773F_28%,#7F9A61_48%,#4F6F3A_68%,#243D1E_100%)]
+  href="tel:+31646555506"
+  class="group relative isolate hidden items-center justify-center overflow-hidden rounded-md
+  bg-[linear-gradient(120deg,#3E5B32_0%,#58773F_28%,#8FBF63_48%,#4F6F3A_68%,#243D1E_100%)]
   bg-[length:240%_240%]
   px-5 py-3 text-[13px] font-black text-white
   shadow-[0_16px_42px_rgba(47,74,39,.34)]
-  transition duration-300 hover:-translate-y-0.5 hover:animate-gradientShift
-  hover:shadow-[0_22px_58px_rgba(47,74,39,.42)]"
+  transition duration-300
+  hover:-translate-y-0.5 hover:animate-gradientShift
+  hover:shadow-[0_22px_58px_rgba(47,74,39,.42)]
+  sm:inline-flex"
 >
+  <span class="absolute inset-0 z-0 bg-[linear-gradient(120deg,transparent_0%,rgba(255,255,255,0.22)_42%,transparent_68%)] opacity-0 transition duration-500 group-hover:translate-x-full group-hover:opacity-100"></span>
+
   <span class="relative z-10 flex items-center gap-2">
-    <i data-lucide="clipboard-list" class="h-4 w-4"></i>
-    OFFERTE AANVRAGEN
+    <i data-lucide="phone" class="h-4 w-4"></i>
+    06 46 55 55 06
   </span>
 
   <span class="relative z-10 ml-2 transition duration-300 group-hover:translate-x-1">
-    →
+     <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
   </span>
 </a>
 
-<!-- Mobile toggle: plain icon -->
-<button
-  type="button"
-  id="mobileMenuButton"
-  class="inline-flex h-11 w-11 items-center justify-center rounded-2xl
-  border border-white/12
-  bg-white/[0.06]
-  text-white
-  shadow-[0_14px_40px_rgba(0,0,0,0.18)]
-  backdrop-blur-xl
-  transition duration-300
-  hover:-translate-y-0.5
-  hover:border-[#A8BD8A]/70
-  hover:bg-[#A8BD8A]/12
-  hover:text-[#A8BD8A]
-  lg:hidden"
-  aria-label="Open menu"
-  aria-expanded="false"
->
-  <i data-lucide="menu" class="pointer-events-none h-6 w-6"></i>
-</button>
+      <!-- Mobile toggle -->
+      <button
+        type="button"
+        id="mobileMenuButton"
+        class="inline-flex h-11 w-11 items-center justify-center rounded-md
+        border border-white/12 bg-white/[0.06] text-white
+        shadow-[0_14px_40px_rgba(0,0,0,0.18)]
+        backdrop-blur-xl transition duration-300
+        hover:-translate-y-0.5 hover:border-[#A8BD8A]/70 hover:bg-[#A8BD8A]/12 hover:text-[#A8BD8A]
+        lg:hidden"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        <i data-lucide="menu" class="pointer-events-none h-6 w-6"></i>
+      </button>
     </div>
   </div>
 
-
-<!-- Mobile menu -->
-<div
-  id="mobileMenu"
-  class="hidden overflow-hidden bg-transparent lg:hidden"
->
-  <nav
-    class="mx-auto grid w-full max-w-[1440px] gap-0 px-6 py-4 sm:px-10"
-    aria-label="Mobiel menu"
-  >
-    <a href="#home" class="border-b border-white/10 py-3 text-sm font-extrabold text-white transition hover:text-[#A8BD8A]">Home</a>
-    <a href="#over-ons" class="border-b border-white/10 py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Over ons</a>
-    <a href="#diensten" class="border-b border-white/10 py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Diensten</a>
-    <a href="#prijzen" class="border-b border-white/10 py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Prijzen</a>
-    <a href="#contact" class="py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Contact</a>
-  </nav>
-</div>
-</div>
-      
+  <!-- Mobile menu -->
+  <div id="mobileMenu" class="hidden overflow-hidden bg-transparent lg:hidden">
+    <nav
+      class="mx-auto grid w-full max-w-[1360px] gap-0 px-6 py-4 sm:px-10 lg:px-16 xl:px-20"
+      aria-label="Mobiel menu"
+    >
+      <a href="#hero" class="border-b border-white/10 py-3 text-sm font-extrabold text-white transition hover:text-[#A8BD8A]">Home</a>
+      <a href="#over-ons" class="border-b border-white/10 py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Over ons</a>
+      <a href="#diensten" class="border-b border-white/10 py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Diensten</a>
+      <a href="#prijzen" class="border-b border-white/10 py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Prijzen</a>
+      <a href="#offerte" class="border-b border-white/10 py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Offerte</a>
+      <a href="#contacten" class="py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Contact</a>
+    </nav>
+  </div>
 </header>
