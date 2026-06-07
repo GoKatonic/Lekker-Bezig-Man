@@ -1,351 +1,220 @@
 <section
   id="offerte"
-  class="relative isolate overflow-hidden py-20 text-ink sm:py-24 lg:py-32
-  bg-[radial-gradient(circle_at_18%_18%,rgba(255,255,255,0.68),transparent_34%),radial-gradient(circle_at_82%_25%,rgba(218,214,207,0.42),transparent_38%),linear-gradient(135deg,#E5E2DC_0%,#F7F5F0_48%,#DDD8CF_100%)]"
+  class="relative isolate overflow-hidden py-20 text-ink sm:py-24 lg:py-32 bg-[radial-gradient(circle_at_18%_18%,rgba(255,255,255,0.68),transparent_34%),radial-gradient(circle_at_82%_25%,rgba(218,214,207,0.42),transparent_38%),linear-gradient(135deg,#E5E2DC_0%,#F7F5F0_48%,#DDD8CF_100%)]"
 >
-  <!-- Grey overlay -->
+  <div class="pointer-events-none absolute inset-0 z-0 bg-[linear-gradient(135deg,rgba(31,36,42,0.08),rgba(31,36,42,0.035),rgba(31,36,42,0.10))]"></div>
+
+<div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+  <!-- Large grid -->
   <div
-    class="pointer-events-none absolute inset-0 z-0
-    bg-[linear-gradient(135deg,rgba(31,36,42,0.08),rgba(31,36,42,0.035),rgba(31,36,42,0.10))]"
+    class="absolute inset-0 opacity-[0.34]
+    bg-[linear-gradient(rgba(72,102,54,0.32)_1px,transparent_1px),linear-gradient(90deg,rgba(72,102,54,0.32)_1px,transparent_1px)]
+    bg-[size:72px_72px]"
   ></div>
 
-  <!-- Milky overlay -->
+  <!-- Small grid -->
   <div
-    class="pointer-events-none absolute inset-0 z-0
-    bg-[radial-gradient(circle_at_20%_18%,rgba(255,255,255,0.46),transparent_34%),radial-gradient(circle_at_82%_24%,rgba(221,216,207,0.34),transparent_40%),linear-gradient(135deg,rgba(239,236,229,0.72)_0%,rgba(248,246,241,0.82)_48%,rgba(225,220,211,0.70)_100%)]"
+    class="absolute inset-0 opacity-[0.20]
+    bg-[linear-gradient(rgba(72,102,54,0.22)_1px,transparent_1px),linear-gradient(90deg,rgba(72,102,54,0.22)_1px,transparent_1px)]
+    bg-[size:18px_18px]"
   ></div>
 
-  <!-- Top / bottom fade -->
-  <div class="pointer-events-none absolute inset-x-0 top-0 z-0 h-80 bg-gradient-to-b from-[#D6D0C6]/60 via-[#ECE8DF]/38 to-transparent"></div>
-  <div class="pointer-events-none absolute inset-x-0 bottom-0 z-0 h-80 bg-gradient-to-t from-[#D6D0C6]/60 via-[#ECE8DF]/38 to-transparent"></div>
-
-  <!-- Dark vignette on all sides -->
+  <!-- Vignette -->
   <div
-    class="pointer-events-none absolute inset-0 z-0
-    bg-[linear-gradient(90deg,rgba(31,36,42,0.18)_0%,transparent_18%,transparent_82%,rgba(31,36,42,0.18)_100%),linear-gradient(180deg,rgba(31,36,42,0.16)_0%,transparent_18%,transparent_82%,rgba(31,36,42,0.16)_100%)]"
+    class="absolute inset-0
+    bg-[radial-gradient(circle_at_center,transparent_0%,transparent_58%,rgba(31,36,42,0.035)_82%,rgba(31,36,42,0.075)_100%)]"
   ></div>
+</div>
 
-  <!-- Decorative grid -->
-  <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
-    <div
-      class="absolute inset-0 opacity-[0.18]
-      bg-[linear-gradient(rgba(31,36,42,0.16)_1px,transparent_1px),linear-gradient(90deg,rgba(31,36,42,0.16)_1px,transparent_1px)]
-      bg-[size:64px_64px]"
-    ></div>
-
-    <div
-      class="absolute inset-0 opacity-[0.07]
-      bg-[linear-gradient(rgba(31,36,42,0.13)_1px,transparent_1px),linear-gradient(90deg,rgba(31,36,42,0.13)_1px,transparent_1px)]
-      bg-[size:16px_16px]"
-    ></div>
-  </div>
-
-  <!-- Content -->
   <div class="relative z-10 mx-auto w-full max-w-[1360px] px-6 sm:px-10 lg:px-16 xl:px-20">
-
-    <!-- Header -->
-    <div class="mx-auto max-w-[900px] text-center">
-      <h2
-        class="font-display text-[clamp(2.8rem,5.4vw,6rem)] font-light
-        leading-[0.88] tracking-[-0.075em]
-        bg-[linear-gradient(90deg,#0A0D10_0%,#1F242A_28%,#486636_56%,#5F7F45_76%,#0A0D10_100%)]
-        bg-clip-text text-transparent"
-      >
-        OFFERTE FORMULIER
-      </h2>
+    <div class="mx-auto max-w-[920px] text-center">
+<h2
+  class="font-display text-[clamp(2.8rem,5.4vw,6rem)] font-light leading-[0.88] tracking-[-0.075em]
+  bg-[linear-gradient(115deg,#0E1213_0%,#171D1D_18%,#253027_34%,#3E5535_50%,#6F8158_64%,#253027_78%,#171D1B_91%,#090C0D_100%)]
+  bg-clip-text text-transparent"
+>
+  OFFERTE FORMULIER
+</h2>
 
       <p class="mx-auto mt-7 max-w-[720px] text-[17px] leading-8 text-[#3F473C]/72">
         Vul je aanvraag in. Wij bekijken de situatie, stellen gerichte vragen en komen terug met een duidelijke volgende stap.
       </p>
     </div>
 
-    <!-- Form wrapper -->
     <div class="mx-auto mt-16 w-full max-w-[1180px]">
-
-<form
-  id="offerteForm"
-  action="#"
-  method="post"
-  enctype="multipart/form-data"
-  class="relative mx-auto overflow-hidden rounded-[1.75rem]
-  border border-[#1F242A]/18
-  bg-[radial-gradient(circle_at_50%_38%,rgba(255,255,255,0.735)_0%,rgba(242,241,237,0.595)_35%,transparent_66%),radial-gradient(circle_at_15%_9%,rgba(255,255,255,0.42)_0%,transparent_34%),radial-gradient(circle_at_86%_14%,rgba(221,219,213,0.33)_0%,transparent_39%),linear-gradient(135deg,rgba(216,215,209,0.725)_0%,rgba(237,236,231,0.78)_30%,rgba(245,244,240,0.82)_50%,rgba(224,223,217,0.76)_74%,rgba(208,207,201,0.72)_100%)]
-  p-7 shadow-[0_0_0_1px_rgba(255,255,255,0.30),0_34px_100px_rgba(31,36,42,0.16),inset_0_1px_0_rgba(255,255,255,0.72),inset_0_-1px_0_rgba(31,36,42,0.06)]
-  backdrop-blur-2xl sm:p-10 lg:p-12"
->
-  <div class="relative z-10 space-y-12">
-
-   <!-- Header + logo -->
-<div class="grid gap-5 pb-4 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-  <div class="grid max-w-[560px] gap-4 md:grid-cols-[auto_1fr] md:items-center">
-    <div class="flex items-center">
-      <i
-        data-lucide="clipboard-pen-line"
-        class="h-12 w-12 shrink-0 text-[#486636]"
-      ></i>
-    </div>
-
-    <div class="relative max-w-[460px]">
-
-      <p
-        class="text-left text-[clamp(1.18rem,1.55vw,1.58rem)]
-        font-semibold leading-[1.18] tracking-[-0.035em] text-[#242A2F]"
+      <form
+        id="offerteForm"
+        action="#"
+        method="post"
+        enctype="multipart/form-data"
+        class="relative mx-auto overflow-hidden rounded-md border border-[#1F242A]/18 bg-[linear-gradient(135deg,rgba(216,215,209,0.725)_0%,rgba(237,236,231,0.78)_30%,rgba(245,244,240,0.82)_50%,rgba(224,223,217,0.76)_74%,rgba(208,207,201,0.72)_100%)] shadow-[0_0_0_1px_rgba(255,255,255,0.30),0_34px_100px_rgba(31,36,42,0.16),inset_0_1px_0_rgba(255,255,255,0.72)] backdrop-blur-2xl"
       >
-        Vertel kort wat er moet gebeuren,
-        <span class="text-[#486636]">wij nemen gericht contact op.</span>
-      </p>
-    </div>
-  </div>
-<!-- Logo -->
-<div
-  class="pointer-events-none hidden h-[88px] translate-y-5 items-center justify-end overflow-visible lg:flex"
-  aria-hidden="true"
->
-  <img
-    src="assets/logo.jpg"
-    alt=""
-    class="block h-auto w-full max-w-[260px] object-contain opacity-[0.66]
-    [filter:brightness(0)_saturate(100%)_invert(34%)_sepia(16%)_saturate(1184%)_hue-rotate(50deg)_brightness(91%)_contrast(88%)]"
-  >
-</div>
-    </div>
-
-    <!-- Main fields -->
-    <div class="relative z-10 grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-
-      <!-- Gegevens -->
-      <div>
-        <p class="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.22em] text-[#486636]">
-          <i data-lucide="user-round" class="h-4 w-4"></i>
-          Gegevens
-        </p>
-
-        <div class="grid gap-3.5">
-          <input
-            type="text"
-            name="name"
-            placeholder="Naam"
-            required
-            class="w-full rounded-2xl border border-[#111417]/54 bg-[#F1F3EF]/94 px-5 py-4 text-[15px] font-medium text-[#020303] shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)] outline-none placeholder:text-[#0D110F]/54 transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-[#F8F9F6] hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)] focus:border-[#486636] focus:bg-white focus:ring-4 focus:ring-[#5F7F45]/14"
+        <div class="relative">
+          <img
+            src="assets/offerte20.png"
+            alt="Lekker Bezig Man offerte aanvragen"
+            class="h-[280px] w-full object-cover object-center sm:h-[360px] lg:h-[380px]"
           >
-
-          <input
-            type="tel"
-            name="phone"
-            placeholder="Telefoon"
-            required
-            class="w-full rounded-2xl border border-[#111417]/54 bg-[#F1F3EF]/94 px-5 py-4 text-[15px] font-medium text-[#020303] shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)] outline-none placeholder:text-[#0D110F]/54 transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-[#F8F9F6] hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)] focus:border-[#486636] focus:bg-white focus:ring-4 focus:ring-[#5F7F45]/14"
-          >
-
-          <input
-            type="email"
-            name="email"
-            placeholder="E-mail"
-            class="w-full rounded-2xl border border-[#111417]/54 bg-[#F1F3EF]/94 px-5 py-4 text-[15px] font-medium text-[#020303] shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)] outline-none placeholder:text-[#0D110F]/54 transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-[#F8F9F6] hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)] focus:border-[#486636] focus:bg-white focus:ring-4 focus:ring-[#5F7F45]/14"
-          >
-
-          <div class="relative">
-            <select
-              name="service"
-              class="w-full appearance-none rounded-2xl border border-[#111417]/54 bg-[#F1F3EF]/94 px-5 py-4 pr-12 text-[15px] font-medium text-[#020303] shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)] outline-none transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-[#F8F9F6] hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)] focus:border-[#486636] focus:bg-white focus:ring-4 focus:ring-[#5F7F45]/14"
-            >
-              <option>Bouwkundige keuringen</option>
-              <option>Schilderwerk & houtrotherstel</option>
-              <option>Afbouw & renovatie</option>
-              <option>Dakreparatie</option>
-              <option>Anders</option>
-            </select>
-
-            <i data-lucide="chevron-down" class="pointer-events-none absolute right-5 top-1/2 h-4 w-4 -translate-y-1/2 text-[#0B0E0C]"></i>
-          </div>
+          <div class="absolute inset-0 bg-[linear-gradient(180deg,rgba(31,36,42,0.02)_0%,rgba(31,36,42,0.26)_100%)]"></div>
         </div>
-      </div>
 
-      <!-- Project -->
-      <div>
-        <p class="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.22em] text-[#486636]">
-          <i data-lucide="folder-pen" class="h-4 w-4"></i>
-          Project
-        </p>
+        <div class="relative z-10 space-y-10 p-7 sm:p-10 lg:p-12">
+          <div class="grid gap-8 lg:grid-cols-2">
+            <div>
+              <p class="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.22em] text-[#486636]">
+                <i data-lucide="user-round" class="h-4 w-4"></i>
+                Gegevens
+              </p>
 
-        <div class="grid gap-3.5">
-          <input
-            type="text"
-            name="location"
-            placeholder="Adres / plaats"
-            class="w-full rounded-2xl border border-[#111417]/54 bg-[#F1F3EF]/94 px-5 py-4 text-[15px] font-medium text-[#020303] shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)] outline-none placeholder:text-[#0D110F]/54 transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-[#F8F9F6] hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)] focus:border-[#486636] focus:bg-white focus:ring-4 focus:ring-[#5F7F45]/14"
-          >
+              <div class="grid gap-3.5">
+ <input type="text" name="location" placeholder="Adres / plaats" class="w-full rounded-md border border-[#111417]/54 bg-[#F1F3EF]/94 px-5 py-4 text-[15px] font-medium text-[#020303] shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)] outline-none placeholder:text-[#0D110F]/54 transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-[#F8F9F6] hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)] focus:border-[#486636] focus:bg-white focus:ring-4 focus:ring-[#5F7F45]/14">
 
-          <textarea
-            name="message"
-            rows="6"
-            placeholder="Beschrijf kort wat er moet gebeuren..."
-            required
-            class="min-h-[190px] w-full resize-none rounded-2xl border border-[#111417]/54 bg-[#F1F3EF]/94 px-5 py-4 text-[15px] font-medium leading-6 text-[#020303] shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)] outline-none placeholder:text-[#0D110F]/54 transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-[#F8F9F6] hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)] focus:border-[#486636] focus:bg-white focus:ring-4 focus:ring-[#5F7F45]/14"
-          ></textarea>
-        </div>
-      </div>
-    </div>
+                <input type="text" name="name" placeholder="Naam" required class="w-full rounded-md border border-[#111417]/54 bg-[#F1F3EF]/94 px-5 py-4 text-[15px] font-medium text-[#020303] shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)] outline-none placeholder:text-[#0D110F]/54 transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-[#F8F9F6] hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)] focus:border-[#486636] focus:bg-white focus:ring-4 focus:ring-[#5F7F45]/14">
 
-    <!-- Extra informatie + upload -->
-    <div class="mt-12 grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+                <input type="tel" name="phone" placeholder="Telefoon" required class="w-full rounded-md border border-[#111417]/54 bg-[#F1F3EF]/94 px-5 py-4 text-[15px] font-medium text-[#020303] shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)] outline-none placeholder:text-[#0D110F]/54 transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-[#F8F9F6] hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)] focus:border-[#486636] focus:bg-white focus:ring-4 focus:ring-[#5F7F45]/14">
 
-      <!-- Extra informatie -->
-      <div>
-        <p class="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.22em] text-[#486636]">
-          <i data-lucide="list-checks" class="h-4 w-4"></i>
-          Extra informatie
-        </p>
+                <input type="email" name="email" placeholder="E-mail" class="w-full rounded-md border border-[#111417]/54 bg-[#F1F3EF]/94 px-5 py-4 text-[15px] font-medium text-[#020303] shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)] outline-none placeholder:text-[#0D110F]/54 transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-[#F8F9F6] hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)] focus:border-[#486636] focus:bg-white focus:ring-4 focus:ring-[#5F7F45]/14">
 
-        <div class="grid gap-x-6 gap-y-3 sm:grid-cols-2">
-          <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]">
-            <input type="checkbox" name="urgent" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">
-            Spoedaanvraag
-          </label>
+                <div class="relative">
+                  <select name="service" class="w-full appearance-none rounded-md border border-[#111417]/54 bg-[#F1F3EF]/94 px-5 py-4 pr-12 text-[15px] font-medium text-[#020303] shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)] outline-none transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-[#F8F9F6] hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)] focus:border-[#486636] focus:bg-white focus:ring-4 focus:ring-[#5F7F45]/14">
+                    <option>Bouwkundige keuringen</option>
+                    <option>Schilderwerk & houtrotherstel</option>
+                    <option>Afbouw & renovatie</option>
+                    <option>Dakreparatie</option>
+                    <option>Anders</option>
+                  </select>
+                  <i data-lucide="chevron-down" class="pointer-events-none absolute right-5 top-1/2 h-4 w-4 -translate-y-1/2 text-[#0B0E0C]"></i>
+                </div>
+              </div>
+            </div>
 
-          <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]">
-            <input type="checkbox" name="inspection" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">
-            Inspectie gewenst
-          </label>
-
-          <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]">
-            <input type="checkbox" name="callback" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">
-            Bel mij terug
-          </label>
-
-          <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]">
-            <input type="checkbox" name="photos_available" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">
-            Foto’s beschikbaar
-          </label>
-
-          <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]">
-            <input type="checkbox" name="measurements_known" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">
-            Afmetingen bekend
-          </label>
-
-          <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]">
-            <input type="checkbox" name="access_clear" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">
-            Werkplek bereikbaar
-          </label>
-        </div>
-      </div>
-
-<!-- Upload -->
 <div>
   <p class="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.22em] text-[#486636]">
-    <i data-lucide="upload-cloud" class="h-4 w-4"></i>
-    Bestanden meesturen
+    <i data-lucide="folder-pen" class="h-4 w-4"></i>
+    Project
   </p>
 
-  <div class="grid w-full gap-3 sm:grid-cols-2">
-
-    <!-- Foto's -->
-    <label
-      class="group relative flex min-h-[82px] w-full cursor-pointer items-center gap-3 overflow-hidden rounded-2xl
-      border border-[#1F242A]/18 bg-white/42 px-4 py-3
-      shadow-[0_12px_30px_rgba(31,36,42,0.09),inset_0_1px_0_rgba(255,255,255,0.72)]
-      backdrop-blur-2xl transition duration-300
-      hover:-translate-y-0.5 hover:border-[#486636]/42 hover:bg-white/58
-      hover:shadow-[0_18px_44px_rgba(31,36,42,0.13)]"
+  <div class="grid gap-3.5">
+    <div
+      class="relative min-h-[217px] overflow-hidden rounded-md border border-[#111417]/54
+      bg-[#F8F9F6]
+      shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)]
+      transition-[border-color,box-shadow,background-color,transform] duration-500 ease-out
+      hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-white
+      hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)]
+      focus-within:border-[#486636] focus-within:bg-white focus-within:ring-4 focus-within:ring-[#5F7F45]/14"
     >
-      <span class="h-9 w-1.5 shrink-0 rounded-full bg-[#1F242A]/88 transition duration-300 group-hover:bg-[#486636]"></span>
+<div
+  aria-hidden="true"
+  class="pointer-events-none absolute left-1/2 top-[54%] z-0 h-[290px] w-[460px] -translate-x-1/2 -translate-y-1/2
+  bg-[#486636] opacity-[0.13]
+  [mask-image:url('assets/logo.jpg')] [mask-position:center] [mask-repeat:no-repeat] [mask-size:contain]
+  [-webkit-mask-image:url('assets/logo.jpg')] [-webkit-mask-position:center] [-webkit-mask-repeat:no-repeat] [-webkit-mask-size:contain]"
+></div>
 
-      <i data-lucide="image-plus" class="h-6 w-6 shrink-0 text-[#486636]"></i>
-
-      <span class="min-w-0">
-        <span class="block text-[14px] font-bold text-[#111713]">
-          Foto’s toevoegen
-        </span>
-        <span class="mt-1 block text-[11px] font-medium text-[#1F242A]/58">
-          JPG, PNG, HEIC
-        </span>
-      </span>
-
-      <span class="ml-auto text-[20px] font-light leading-none text-[#1F242A]/70 transition group-hover:text-[#486636]">
-        +
-      </span>
-
-      <input type="file" name="photos[]" accept="image/*" multiple class="sr-only">
-    </label>
-
-    <!-- Bestanden -->
-    <label
-      class="group relative flex min-h-[82px] w-full cursor-pointer items-center gap-3 overflow-hidden rounded-2xl
-      border border-[#1F242A]/18 bg-white/42 px-4 py-3
-      shadow-[0_12px_30px_rgba(31,36,42,0.09),inset_0_1px_0_rgba(255,255,255,0.72)]
-      backdrop-blur-2xl transition duration-300
-      hover:-translate-y-0.5 hover:border-[#486636]/42 hover:bg-white/58
-      hover:shadow-[0_18px_44px_rgba(31,36,42,0.13)]"
-    >
-      <span class="h-9 w-1.5 shrink-0 rounded-full bg-[#1F242A]/88 transition duration-300 group-hover:bg-[#486636]"></span>
-
-      <i data-lucide="file-up" class="h-6 w-6 shrink-0 text-[#486636]"></i>
-
-      <span class="min-w-0">
-        <span class="block text-[14px] font-bold text-[#111713]">
-          Bestanden toevoegen
-        </span>
-        <span class="mt-1 block text-[11px] font-medium text-[#1F242A]/58">
-          PDF, DOC, TXT
-        </span>
-      </span>
-
-      <span class="ml-auto text-[20px] font-light leading-none text-[#1F242A]/70 transition group-hover:text-[#486636]">
-        +
-      </span>
-
-      <input
-        type="file"
-        name="files[]"
-        accept=".pdf,.doc,.docx,.xls,.xlsx,.txt,application/pdf"
-        multiple
-        class="sr-only"
-      >
-    </label>
+      <textarea
+        name="message"
+        rows="13"
+        placeholder="Beschrijf kort wat er moet gebeuren..."
+        required
+        class="relative z-10 block min-h-[217px] w-full resize-none border-0 bg-transparent px-5 py-4 text-[15px] font-medium leading-6 text-[#020303] outline-none placeholder:text-[#0D110F]/54"
+      ></textarea>
+    </div>
   </div>
 </div>
-    </div>
+          </div>
 
-    <!-- Submit -->
-<div class="mt-12 grid gap-5 border-t border-[#1F242A]/8 pt-9 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-  <p class="flex max-w-[560px] items-start gap-2 text-xs font-semibold leading-5 text-[#3F473C]/72">
-    <i data-lucide="shield-check" class="mt-0.5 h-4 w-4 shrink-0 text-[#486636]"></i>
-    <span>
-      Door te verzenden ga je akkoord dat wij contact opnemen over je aanvraag.
+          <div class="grid gap-8 lg:grid-cols-[1fr_1fr]">
+            <div>
+              <p class="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.22em] text-[#486636]">
+                <i data-lucide="list-checks" class="h-4 w-4"></i>
+                Extra informatie
+              </p>
+
+              <div class="grid gap-x-8 gap-y-3 sm:grid-cols-2">
+                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="urgent" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Spoedaanvraag</label>
+                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="inspection" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Inspectie gewenst</label>
+                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="callback" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Bel mij terug</label>
+                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="photos_available" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Foto’s beschikbaar</label>
+                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="measurements_known" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Afmetingen bekend</label>
+                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="access_clear" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Werkplek bereikbaar</label>
+              </div>
+            </div>
+
+            <div>
+              <p class="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.22em] text-[#486636]">
+                <i data-lucide="upload-cloud" class="h-4 w-4"></i>
+                Bestanden meesturen
+              </p>
+
+<div class="grid w-full gap-3 sm:grid-cols-2">
+  <label
+    class="group relative flex min-h-[82px] w-full cursor-pointer items-center gap-3 overflow-hidden rounded-md
+    border border-[#111417]/28 bg-[#FAFBF8]
+    px-4 py-3
+    shadow-[0_10px_22px_rgba(31,36,42,0.065),inset_0_1px_0_rgba(255,255,255,0.95)]
+    backdrop-blur-2xl transition duration-500 ease-out
+    hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-white
+    hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)]"
+  >
+    <span class="h-9 w-1.5 shrink-0 rounded-full bg-[#1F242A]/88 transition duration-300 group-hover:bg-[#486636]"></span>
+    <i data-lucide="image-plus" class="h-6 w-6 shrink-0 text-[#486636]"></i>
+    <span class="min-w-0">
+      <span class="block text-[14px] font-bold text-[#111713]">Foto’s toevoegen</span>
+      <span class="mt-1 block text-[11px] font-medium text-[#1F242A]/58">JPG, PNG, HEIC</span>
     </span>
-  </p>
+    <span class="ml-auto text-[20px] font-light leading-none text-[#1F242A]/70 transition group-hover:text-[#486636]">+</span>
+    <input type="file" name="photos[]" accept="image/*" multiple class="sr-only">
+  </label>
 
-  <div class="grid w-full gap-3 sm:grid-cols-2">
-    <div></div>
-
-    <button
-      type="submit"
-      class="group relative isolate inline-flex min-h-[62px] w-full items-center justify-center overflow-hidden rounded-2xl
-      bg-[linear-gradient(120deg,#3E5B32_0%,#58773F_28%,#7F9A61_48%,#4F6F3A_68%,#243D1E_100%)]
-      bg-[length:240%_240%]
-      px-4 py-3 text-[13px] font-black text-white
-      shadow-[0_16px_42px_rgba(47,74,39,.34)]
-      transition duration-300
-      hover:-translate-y-0.5 hover:animate-gradientShift
-      hover:shadow-[0_22px_58px_rgba(47,74,39,.42)]
-      active:translate-y-0 active:scale-[0.99]"
-    >
-      <span class="relative z-10 flex items-center gap-1">
-        AANVRAAG OPSTUREN
-      </span>
-
-      <span class="relative z-10 ml-3 transition duration-300 group-hover:translate-x-1">
-        <i data-lucide="send" class="h-4 w-4"></i>
-      </span>
-    </button>
-  </div>
+  <label
+    class="group relative flex min-h-[82px] w-full cursor-pointer items-center gap-3 overflow-hidden rounded-md
+    border border-[#111417]/28 bg-[#FAFBF8]
+    px-4 py-3
+    shadow-[0_10px_22px_rgba(31,36,42,0.065),inset_0_1px_0_rgba(255,255,255,0.95)]
+    backdrop-blur-2xl transition duration-500 ease-out
+    hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-white
+    hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)]"
+  >
+    <span class="h-9 w-1.5 shrink-0 rounded-full bg-[#1F242A]/88 transition duration-300 group-hover:bg-[#486636]"></span>
+    <i data-lucide="file-up" class="h-6 w-6 shrink-0 text-[#486636]"></i>
+    <span class="min-w-0">
+      <span class="block text-[14px] font-bold text-[#111713]">Bestanden toevoegen</span>
+      <span class="mt-1 block text-[11px] font-medium text-[#1F242A]/58">PDF, DOC, TXT</span>
+    </span>
+    <span class="ml-auto text-[20px] font-light leading-none text-[#1F242A]/70 transition group-hover:text-[#486636]">+</span>
+    <input type="file" name="files[]" accept=".pdf,.doc,.docx,.xls,.xlsx,.txt,application/pdf" multiple class="sr-only">
+  </label>
 </div>
+            </div>
+          </div>
 
+          <div class="grid gap-5 border-t border-[#1F242A]/8 pt-9 lg:grid-cols-[1fr_auto] lg:items-center">
+            <p class="flex max-w-[640px] items-start gap-2 text-xs font-semibold leading-5 text-[#3F473C]/72">
+              <i data-lucide="shield-check" class="mt-0.5 h-4 w-4 shrink-0 text-[#486636]"></i>
+              <span>Door te verzenden ga je akkoord dat wij contact opnemen over je aanvraag.</span>
+            </p>
 
-    </div>
-
-  </div>
-</form>
+<div class="mt-7 flex justify-start sm:justify-end">
+  <a
+    href="#offerte"
+    class="group relative isolate inline-flex items-center justify-center overflow-hidden rounded-md
+    bg-[linear-gradient(120deg,#3E5B32_0%,#58773F_28%,#7F9A61_48%,#4F6F3A_68%,#243D1E_100%)]
+    bg-[length:240%_240%] px-5 py-3 text-[13px] font-black text-white
+    shadow-[0_16px_42px_rgba(47,74,39,.34)]
+    transition duration-300 hover:-translate-y-0.5 hover:animate-gradientShift
+    hover:shadow-[0_22px_58px_rgba(47,74,39,.42)]"
+  >
+    <span class="relative z-10 flex items-center gap-2">
+      <i data-lucide="send" class="h-4 w-4"></i>
+      AANVRAAG OPSTUREN
+      <i data-lucide="arrow-up-right" class="h-4 w-4 transition duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i>
+    </span>
+  </a>
+</div>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </section>
