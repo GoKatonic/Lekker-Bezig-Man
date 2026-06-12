@@ -3,8 +3,8 @@
   bg-[#1F242A]/95 shadow-[0_14px_50px_rgba(0,0,0,0.22)] backdrop-blur-2xl"
 >
   <div
-    class="mx-auto flex h-[78px] w-full max-w-[1360px] items-center justify-between
-    px-6 sm:px-10 lg:px-16 xl:px-20"
+    class="mx-auto grid h-[78px] w-full max-w-[1360px] grid-cols-[auto_auto] items-center justify-between gap-8
+    px-6 sm:px-10 lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:px-16 xl:px-20"
   >
 
     <!-- Logo -->
@@ -25,22 +25,10 @@
         group-hover:[filter:brightness(0)_saturate(100%)_invert(79%)_sepia(13%)_saturate(604%)_hue-rotate(42deg)_brightness(91%)_contrast(87%)]
         group-hover:scale-[1.03]"
       >
-
-      <span
-        class="hidden h-8 w-[1px] bg-white transition duration-300
-        group-hover:bg-[#A8BD8A]/70 sm:block"
-      ></span>
-
-      <span
-        class="hidden text-[10px] font-black uppercase leading-tight tracking-[0.16em]
-        text-white transition duration-300 group-hover:text-[#A8BD8A] sm:block"
-      >
-        Lekker<br>Bezig Man
-      </span>
     </a>
 
     <!-- Desktop nav -->
-    <nav class="hidden items-center gap-10 lg:flex" aria-label="Hoofdmenu">
+    <nav class="hidden min-w-0 items-center justify-center gap-8 xl:gap-10 lg:flex" aria-label="Hoofdmenu">
       <a href="#hero" class="group relative py-2 text-sm font-extrabold text-white transition duration-300">
         HOME
         <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-100 bg-[#A8BD8A] transition duration-300"></span>
@@ -61,8 +49,13 @@
         <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
       </a>
 
-            <a href="#offerte" class="group relative py-2 text-sm font-bold text-white transition duration-300">
+      <a href="#offerte" class="group relative py-2 text-sm font-bold text-white transition duration-300">
         OFFERTE
+        <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
+      </a>
+
+      <a href="#vacatures" class="group relative py-2 text-sm font-bold text-white transition duration-300">
+        VACATURES
         <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-[#A8BD8A] transition duration-300 group-hover:scale-x-100"></span>
       </a>
 
@@ -72,32 +65,31 @@
       </a>
     </nav>
 
-    <div class="flex items-center gap-4">
+    <div class="flex items-center justify-end gap-4">
+      <!-- Phone CTA -->
+      <a
+        href="tel:+31646555506"
+        class="group relative isolate hidden items-center justify-center overflow-hidden rounded-md
+        bg-[linear-gradient(120deg,#3E5B32_0%,#58773F_28%,#8FBF63_48%,#4F6F3A_68%,#243D1E_100%)]
+        bg-[length:240%_240%]
+        px-5 py-3 text-[13px] font-black text-white
+        shadow-[0_16px_42px_rgba(47,74,39,.34)]
+        transition duration-300
+        hover:-translate-y-0.5 hover:animate-gradientShift
+        hover:shadow-[0_22px_58px_rgba(47,74,39,.42)]
+        sm:inline-flex"
+      >
+        <span class="absolute inset-0 z-0 bg-[linear-gradient(120deg,transparent_0%,rgba(255,255,255,0.22)_42%,transparent_68%)] opacity-0 transition duration-500 group-hover:translate-x-full group-hover:opacity-100"></span>
 
-<!-- Phone CTA -->
-<a
-  href="tel:+31646555506"
-  class="group relative isolate hidden items-center justify-center overflow-hidden rounded-md
-  bg-[linear-gradient(120deg,#3E5B32_0%,#58773F_28%,#8FBF63_48%,#4F6F3A_68%,#243D1E_100%)]
-  bg-[length:240%_240%]
-  px-5 py-3 text-[13px] font-black text-white
-  shadow-[0_16px_42px_rgba(47,74,39,.34)]
-  transition duration-300
-  hover:-translate-y-0.5 hover:animate-gradientShift
-  hover:shadow-[0_22px_58px_rgba(47,74,39,.42)]
-  sm:inline-flex"
->
-  <span class="absolute inset-0 z-0 bg-[linear-gradient(120deg,transparent_0%,rgba(255,255,255,0.22)_42%,transparent_68%)] opacity-0 transition duration-500 group-hover:translate-x-full group-hover:opacity-100"></span>
+        <span class="relative z-10 flex items-center gap-3">
+          <i data-lucide="phone" class="h-4 w-4 stroke-[2.5]"></i>
+          <span class="font-bold tracking-[0.04em]">BELLEN</span>
+        </span>
 
-  <span class="relative z-10 flex items-center gap-2">
-    <i data-lucide="phone" class="h-4 w-4"></i>
-    06 46 55 55 06
-  </span>
-
-  <span class="relative z-10 ml-2 transition duration-300 group-hover:translate-x-1">
-     <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
-  </span>
-</a>
+        <span class="relative z-10 ml-2 transition duration-300 group-hover:translate-x-1">
+          <i data-lucide="arrow-up-right" class="h-5 w-5 stroke-2"></i>
+        </span>
+      </a>
 
       <!-- Mobile toggle -->
       <button
@@ -128,6 +120,7 @@
       <a href="#diensten" class="border-b border-white/10 py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Diensten</a>
       <a href="#prijzen" class="border-b border-white/10 py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Prijzen</a>
       <a href="#offerte" class="border-b border-white/10 py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Offerte</a>
+      <a href="#vacatures" class="border-b border-white/10 py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Vacatures</a>
       <a href="#contacten" class="py-3 text-sm font-bold text-white transition hover:text-[#A8BD8A]">Contact</a>
     </nav>
   </div>
