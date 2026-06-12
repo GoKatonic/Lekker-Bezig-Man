@@ -41,7 +41,7 @@
       </p>
     </div>
 
-    <div class="mx-auto mt-16 w-full max-w-[1180px]">
+    <div class="mx-auto mt-16 w-full max-w-[1360px]">
       <form
         id="offerteForm"
         action="#"
@@ -51,7 +51,7 @@
       >
         <div class="relative">
           <img
-            src="assets/offerte20.png"
+            src="assets/offerte.png"
             alt="Lekker Bezig Man offerte aanvragen"
             class="h-[280px] w-full object-cover object-center sm:h-[360px] lg:h-[380px]"
           >
@@ -124,96 +124,103 @@
 </div>
           </div>
 
-          <div class="grid gap-8 lg:grid-cols-[1fr_1fr]">
-            <div>
-              <p class="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.22em] text-[#486636]">
-                <i data-lucide="list-checks" class="h-4 w-4"></i>
-                Extra informatie
-              </p>
+<div class="grid gap-8 lg:grid-cols-2 lg:items-stretch">
+  <div class="flex h-full flex-col">
+    <p class="mb-4 flex items-center gap-2 text-[11px] font-black uppercase tracking-[0.22em] text-[#486636]">
+      <i data-lucide="list-checks" class="h-4 w-4"></i>
+      Extra informatie
+    </p>
 
-              <div class="grid gap-x-8 gap-y-3 sm:grid-cols-2">
-                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="urgent" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Spoedaanvraag</label>
-                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="inspection" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Inspectie gewenst</label>
-                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="callback" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Bel mij terug</label>
-                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="photos_available" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Foto’s beschikbaar</label>
-                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="measurements_known" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Afmetingen bekend</label>
-                <label class="flex cursor-pointer items-center gap-2.5 text-[13px] font-bold text-[#1F242A]/82 transition hover:text-[#486636]"><input type="checkbox" name="access_clear" class="h-3.5 w-3.5 rounded border-[#1F242A]/20 accent-[#5F7F45]">Werkplek bereikbaar</label>
-              </div>
-            </div>
+    <div
+      class="grid min-h-[176px] flex-1 gap-x-8 gap-y-4 rounded-md
+      border border-transparant
+      bg-[#F8F9F6] p-5
+                shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)]
+                transition duration-500 ease-out 
+                hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)]
+      backdrop-blur-xl sm:grid-cols-2"
+    >
+      <label class="flex cursor-pointer items-center gap-2.5 text-[14px] font-bold text-[#1F242A]/84 transition hover:text-[#486636]"><input type="checkbox" name="urgent" class="h-4 w-4 rounded border-[#1F242A]/20 accent-[#5F7F45]">Spoedaanvraag</label>
+      <label class="flex cursor-pointer items-center gap-2.5 text-[14px] font-bold text-[#1F242A]/84 transition hover:text-[#486636]"><input type="checkbox" name="inspection" class="h-4 w-4 rounded border-[#1F242A]/20 accent-[#5F7F45]">Inspectie gewenst</label>
+      <label class="flex cursor-pointer items-center gap-2.5 text-[14px] font-bold text-[#1F242A]/84 transition hover:text-[#486636]"><input type="checkbox" name="callback" class="h-4 w-4 rounded border-[#1F242A]/20 accent-[#5F7F45]">Bel mij terug</label>
+      <label class="flex cursor-pointer items-center gap-2.5 text-[14px] font-bold text-[#1F242A]/84 transition hover:text-[#486636]"><input type="checkbox" name="photos_available" class="h-4 w-4 rounded border-[#1F242A]/20 accent-[#5F7F45]">Foto’s beschikbaar</label>
+      <label class="flex cursor-pointer items-center gap-2.5 text-[14px] font-bold text-[#1F242A]/84 transition hover:text-[#486636]"><input type="checkbox" name="measurements_known" class="h-4 w-4 rounded border-[#1F242A]/20 accent-[#5F7F45]">Afmetingen bekend</label>
+      <label class="flex cursor-pointer items-center gap-2.5 text-[14px] font-bold text-[#1F242A]/84 transition hover:text-[#486636]"><input type="checkbox" name="access_clear" class="h-4 w-4 rounded border-[#1F242A]/20 accent-[#5F7F45]">Werkplek bereikbaar</label>
+    </div>
+  </div>
 
-            <div>
-              <p class="mb-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.22em] text-[#486636]">
-                <i data-lucide="upload-cloud" class="h-4 w-4"></i>
-                Bestanden meesturen
-              </p>
+  <div class="flex h-full flex-col">
+    <p class="mb-4 flex items-center gap-2 text-[11px] font-black uppercase tracking-[0.22em] text-[#486636]">
+      <i data-lucide="upload-cloud" class="h-4 w-4"></i>
+      Bestanden toevoegen
+    </p>
 
-<div class="grid w-full gap-3 sm:grid-cols-2">
-  <label
-    class="group relative flex min-h-[82px] w-full cursor-pointer items-center gap-3 overflow-hidden rounded-md
-    border border-[#111417]/28 bg-[#FAFBF8]
-    px-4 py-3
-    shadow-[0_10px_22px_rgba(31,36,42,0.065),inset_0_1px_0_rgba(255,255,255,0.95)]
-    backdrop-blur-2xl transition duration-500 ease-out
-    hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-white
-    hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)]"
-  >
-    <span class="h-9 w-1.5 shrink-0 rounded-full bg-[#1F242A]/88 transition duration-300 group-hover:bg-[#486636]"></span>
-    <i data-lucide="image-plus" class="h-6 w-6 shrink-0 text-[#486636]"></i>
-    <span class="min-w-0">
-      <span class="block text-[14px] font-bold text-[#111713]">Foto’s toevoegen</span>
-      <span class="mt-1 block text-[11px] font-medium text-[#1F242A]/58">JPG, PNG, HEIC</span>
-    </span>
-    <span class="ml-auto text-[20px] font-light leading-none text-[#1F242A]/70 transition group-hover:text-[#486636]">+</span>
-    <input type="file" name="photos[]" accept="image/*" multiple class="sr-only">
-  </label>
+    <label
+      class="group relative flex min-h-[176px] flex-1 w-full cursor-pointer flex-col items-center justify-center overflow-hidden rounded-md
+      border border-dashed border-[#486636]/70
+      bg-[#F8F9F6] opacity-[0.90]
+      px-5 py-5 text-center
+      shadow-[0_10px_22px_rgba(31,36,42,0.055),inset_0_1px_0_rgba(255,255,255,0.84)]
+      transition duration-500 ease-out
+      hover:border-[#486636]
+      hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)]"
+    >
+      <input
+        type="file"
+        name="attachments[]"
+        multiple
+        accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.webp"
+        class="hidden"
+      >
 
-  <label
-    class="group relative flex min-h-[82px] w-full cursor-pointer items-center gap-3 overflow-hidden rounded-md
-    border border-[#111417]/28 bg-[#FAFBF8]
-    px-4 py-3
-    shadow-[0_10px_22px_rgba(31,36,42,0.065),inset_0_1px_0_rgba(255,255,255,0.95)]
-    backdrop-blur-2xl transition duration-500 ease-out
-    hover:-translate-y-[1px] hover:border-[#486636]/80 hover:bg-white
-    hover:shadow-[0_18px_38px_rgba(31,36,42,0.10),0_0_22px_rgba(95,127,69,0.10)]"
-  >
-    <span class="h-9 w-1.5 shrink-0 rounded-full bg-[#1F242A]/88 transition duration-300 group-hover:bg-[#486636]"></span>
-    <i data-lucide="file-up" class="h-6 w-6 shrink-0 text-[#486636]"></i>
-    <span class="min-w-0">
-      <span class="block text-[14px] font-bold text-[#111713]">Bestanden toevoegen</span>
-      <span class="mt-1 block text-[11px] font-medium text-[#1F242A]/58">PDF, DOC, TXT</span>
-    </span>
-    <span class="ml-auto text-[20px] font-light leading-none text-[#1F242A]/70 transition group-hover:text-[#486636]">+</span>
-    <input type="file" name="files[]" accept=".pdf,.doc,.docx,.xls,.xlsx,.txt,application/pdf" multiple class="sr-only">
-  </label>
+      <span
+        class="flex h-11 w-11 items-center justify-center rounded-md
+        bg-[#486636]/10 text-[#486636]
+        shadow-[inset_0_1px_0_rgba(255,255,255,0.62)]
+        transition duration-500 ease-out
+        group-hover:bg-[#486636]/14 group-hover:text-[#3F5F25]"
+      >
+        <i data-lucide="paperclip" class="h-5 w-5"></i>
+      </span>
+
+      <span class="mt-3 block text-[13px] font-black text-[#111417]">
+        Upload foto’s, documenten of bijlagen
+      </span>
+
+      <span class="mt-1.5 block max-w-[400px] text-[11px] font-medium leading-5 text-[#111417]/52">
+        Voeg meerdere bestanden toe, zoals projectfoto’s, tekeningen of eerdere offertes.
+      </span>
+    </label>
+  </div>
 </div>
-            </div>
-          </div>
 
-          <div class="grid gap-5 border-t border-[#1F242A]/8 pt-9 lg:grid-cols-[1fr_auto] lg:items-center">
-            <p class="flex max-w-[640px] items-start gap-2 text-xs font-semibold leading-5 text-[#3F473C]/72">
-              <i data-lucide="shield-check" class="mt-0.5 h-4 w-4 shrink-0 text-[#486636]"></i>
-              <span>Door te verzenden ga je akkoord dat wij contact opnemen over je aanvraag.</span>
-            </p>
+<div class="border-t border-[#486636]/15 pt-9">
+  <p class="mb-5 flex items-start gap-2 text-xs font-semibold leading-5 text-[#3F473C]/72">
+    <i data-lucide="shield-check" class="mt-0.5 h-4 w-4 shrink-0 text-[#486636]"></i>
+    <span>Door te verzenden ga je akkoord dat wij contact opnemen over je aanvraag.</span>
+  </p>
 
-<div class="mt-7 flex justify-start sm:justify-end">
   <a
     href="#offerte"
-    class="group relative isolate inline-flex items-center justify-center overflow-hidden rounded-md
+    class="group relative isolate inline-flex w-full items-center justify-center overflow-hidden rounded-md
     bg-[linear-gradient(120deg,#3E5B32_0%,#58773F_28%,#7F9A61_48%,#4F6F3A_68%,#243D1E_100%)]
-    bg-[length:240%_240%] px-5 py-3 text-[13px] font-black text-white
+    bg-[length:240%_240%]
+    px-6 py-4 text-[13px] font-black uppercase tracking-[0.16em] text-white
     shadow-[0_16px_42px_rgba(47,74,39,.34)]
     transition duration-300 hover:-translate-y-0.5 hover:animate-gradientShift
     hover:shadow-[0_22px_58px_rgba(47,74,39,.42)]"
   >
     <span class="relative z-10 flex items-center gap-2">
-      <i data-lucide="send" class="h-4 w-4"></i>
-      AANVRAAG OPSTUREN
-      <i data-lucide="arrow-up-right" class="h-4 w-4 transition duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i>
+      <i data-lucide="clipboard-list" class="h-4 w-4"></i>
+      VERSTUREN AANVRAAG
+    </span>
+
+    <span class="relative z-10 ml-2 transition duration-300 group-hover:translate-x-1">
+      <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
     </span>
   </a>
 </div>
-          </div>
-        </div>
+</div>
       </form>
     </div>
   </div>
