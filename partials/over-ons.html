@@ -3,20 +3,20 @@
   class="relative isolate overflow-hidden py-20 text-white sm:py-24 lg:py-32
   bg-[radial-gradient(circle_at_16%_10%,rgba(255,255,255,0.045),transparent_28%),radial-gradient(circle_at_78%_18%,rgba(95,127,69,0.18),transparent_34%),radial-gradient(circle_at_52%_96%,rgba(72,102,54,0.13),transparent_42%),linear-gradient(145deg,#0E1213_0%,#171D1D_26%,#253027_48%,#171D1B_72%,#090C0D_100%)]"
 >
-  <div class="pointer-events-none absolute inset-x-0 top-0 z-0 h-52 bg-gradient-to-b from-black/38 via-black/14 to-transparent"></div>
-  <div class="pointer-events-none absolute inset-x-0 bottom-0 z-0 h-64 bg-gradient-to-t from-black/52 via-black/18 to-transparent"></div>
+  <div class="pointer-events-none absolute inset-x-0 top-0 z-0 h-52 bg-gradient-to-b from-black/[.38] via-black/[.14] to-transparent"></div>
+  <div class="pointer-events-none absolute inset-x-0 bottom-0 z-0 h-64 bg-gradient-to-t from-black/[.52] via-black/[.18] to-transparent"></div>
 
   <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
     <div
       class="absolute inset-0 opacity-[0.34]
       bg-[linear-gradient(rgba(255,255,255,0.115)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.115)_1px,transparent_1px)]
-      bg-[size:72px_72px]"
+      [background-size:72px_72px]"
     ></div>
 
     <div
       class="absolute inset-0 opacity-[0.20]
       bg-[linear-gradient(rgba(255,255,255,0.085)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.085)_1px,transparent_1px)]
-      bg-[size:18px_18px]"
+      [background-size:18px_18px]"
     ></div>
 
     <div
@@ -25,10 +25,16 @@
     ></div>
   </div>
 
-  <div class="pointer-events-none absolute right-[-18%] top-[10%] z-0 h-[620px] w-[620px] rounded-full bg-[#A8BD8A]/18 blur-[140px]"></div>
-  <div class="pointer-events-none absolute left-[-16%] bottom-[-18%] z-0 h-[520px] w-[520px] rounded-full bg-white/8 blur-[130px]"></div>
+  <!-- Glow spots -->
+  <div class="pointer-events-none absolute right-[-18%] top-[10%] z-0 h-[620px] w-[620px] rounded-full bg-[#A8BD8A]/[.18] blur-[140px]"></div>
 
-  <div class="pointer-events-none absolute right-[42%] top-[-10%] z-0 hidden h-[120%] w-px rotate-[13deg] bg-gradient-to-b from-transparent via-[#A8BD8A]/28 to-transparent lg:block"></div>
+  <div class="pointer-events-none absolute left-[-12%] top-[28%] z-0 h-[520px] w-[520px] rounded-full bg-[#A8BD8A]/[.12] blur-[150px]"></div>
+
+  <div class="pointer-events-none absolute right-[18%] bottom-[18%] z-0 h-[460px] w-[460px] rounded-full bg-[#5F7F45]/[.14] blur-[135px]"></div>
+
+  <div class="pointer-events-none absolute left-[30%] top-[52%] z-0 h-[380px] w-[380px] rounded-full bg-[#A8BD8A]/[.10] blur-[130px]"></div>
+
+  <div class="pointer-events-none absolute left-[-16%] bottom-[-18%] z-0 h-[520px] w-[520px] rounded-full bg-white/[.08] blur-[130px]"></div>
 
   <div class="relative z-10 mx-auto w-full max-w-[1360px] px-6 sm:px-10 lg:px-16 xl:px-20">
     <div class="mx-auto max-w-[1180px] text-center">
@@ -57,50 +63,28 @@
 
         <div class="group relative h-[365px] overflow-hidden sm:h-[395px] lg:h-[410px]">
           <img
-            src="assets/over-ons2.png"
-            alt="Lekker Bezig Man projectfoto"
-            class="h-full w-full object-cover object-center transition duration-700 group-hover:scale-105"
+            src="assets/over_ons.png"
+            alt="LekkerBezigMan"
+            class="h-full w-full object-cover object-[80%_0%] opacity-[.85] transition duration-700 group-hover:scale-105"
           >
-
-          <div class="absolute inset-x-0 top-0 z-10 h-28 bg-gradient-to-b from-[rgba(17,20,23,0.46)] via-[rgba(17,20,23,0.18)] to-transparent"></div>
-          <div class="absolute inset-0 z-10 bg-[linear-gradient(180deg,rgba(17,20,23,0.10)_0%,rgba(17,20,23,0.18)_42%,rgba(17,20,23,0.92)_100%)]"></div>
-          <div class="absolute inset-0 z-10 bg-[radial-gradient(circle_at_86%_22%,rgba(255,255,255,0.08)_0%,transparent_30%)]"></div>
-
-          <div class="absolute left-6 top-6 z-20 sm:left-7 sm:top-7">
-            <p class="text-[11px] font-black uppercase tracking-[0.22em] text-[#A8BD8A] drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)]">
-              Projecten
-            </p>
-          </div>
-
-          <div class="absolute bottom-6 left-6 right-6 z-20 flex items-end justify-between gap-4 sm:left-8 sm:right-8">
-            <div>
-              <p class="text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
-                Strak werk
-              </p>
-
-              <p class="mt-2 text-[1.2rem] font-black uppercase leading-[1.12] tracking-[-0.005em] text-white">
-                Duidelijke aanpak, nette afwerking.
-              </p>
-            </div>
-          </div>
         </div>
 
         <div class="relative z-10 -mt-8 px-6 pb-7 pt-10 sm:px-8 sm:pb-8 sm:pt-12 lg:px-9 lg:pb-9 lg:pt-14">
-          <div class="relative border-t border-white/[.10] py-7 before:pointer-events-none before:absolute before:left-0 before:top-0 before:h-px before:w-28 before:bg-gradient-to-r before:from-[#A8BD8A]/42 before:to-transparent">
+          <div class="relative py-7 before:pointer-events-none before:absolute before:left-0 before:top-0 before:h-px before:w-28 before:bg-[#A8BD8A]/42">
             <p class="text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
               Wie we zijn
             </p>
 
-            <p class="mt-4 max-w-[650px] text-[15px] leading-7 text-white/50">
-              Wij kijken niet alleen naar de losse klus, maar naar het geheel:
-              wat moet er gebeuren, wat is slim, en hoe zorgen we voor een resultaat
-              dat technisch én visueel klopt.
+            <p class="mt-4 max-w-[650px] text-[15px] leading-7 text-white/95">
+              LekkerBezigMan is een allround klusbedrijf dat zich richt op dakherstel, bouwkundige keuringen, schilderwerk, houtrotreparatie en renovatiewerkzaamheden.
+Binnen het dakwerk verzorgen wij, waar nodig, ook het herstel van gevolgschade na lekkages. Zo blijft het niet bij het verhelpen van de oorzaak, maar wordt het geheel weer in goede staat gebracht.
+Door verschillende werkzaamheden te combineren, kunnen wij projecten van begin tot eind begeleiden en zorgen voor een duurzaam eindresultaat.
             </p>
           </div>
 
-          <div class="relative border-t border-white/[.10] py-7 before:pointer-events-none before:absolute before:left-0 before:top-0 before:h-px before:w-28 before:bg-gradient-to-r before:from-[#A8BD8A]/30 before:to-transparent">
+          <div class="relative border-t border-white/[.10] py-7">
             <div class="grid gap-5 sm:grid-cols-[4rem_1fr] sm:items-start">
-              <div class="flex h-16 w-16 items-center justify-center text-[#A8BD8A]/80">
+              <div class="flex h-16 w-16 items-center justify-center text-[#A8BD8A]">
                 <i data-lucide="hammer" class="h-12 w-12"></i>
               </div>
 
@@ -109,10 +93,12 @@
                   Onze manier van werken
                 </p>
 
-                <p class="mt-3 ml-auto max-w-[420px] text-[13px] leading-5 text-white/56 sm:text-right">
-                  Praktisch, netjes en oplossingsgericht. Geen gedoe, maar overzicht,
-                  verantwoordelijkheid en een afwerking waar je op kunt bouwen.
-                </p>
+<p class="mt-3 ml-auto max-w-[420px] text-[13px] leading-5 text-white/80 sm:text-right">
+  Wat ons onderscheidt, is de manier waarop we werken.
+  We maken heldere afspraken, voeren werkzaamheden
+  zorgvuldig uit en hebben respect voor de woning
+  van onze klanten.
+</p>
               </div>
             </div>
           </div>
@@ -128,141 +114,178 @@
         <div class="pointer-events-none absolute inset-x-10 top-0 z-30 h-px bg-gradient-to-r from-transparent via-white/18 to-transparent"></div>
 
         <div class="relative z-10 flex h-full flex-col">
-          <div class="flex items-start justify-between gap-5">
-            <div class="max-w-[560px]">
-              <p class="text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
-                Waarom kiezen voor ons
-              </p>
+  <div class="flex items-start justify-between gap-5">
+    <div class="max-w-[560px]">
+      <p class="text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
+        Waarom kiezen voor ons
+      </p>
 
-              <h3 class="mt-2 text-[1.5rem] font-black uppercase leading-[1.12] tracking-[-0.005em] text-white">
-                VAKWERK BEGINT MET DUIDELIJKHEID
-              </h3>
+      <h3 class="mt-6 text-[1.5rem] font-black uppercase leading-[1.12] tracking-[-0.005em] text-white">
+        VAKWERK BEGINT MET EEN DUIDELIJKE WERKWIJZE
+      </h3>
 
-              <p class="mt-3 max-w-[520px] text-sm leading-7 text-white/54">
-                We houden het proces overzichtelijk, denken mee en nemen
-                verantwoordelijkheid voor het eindresultaat.
-              </p>
-            </div>
+      <p class="mt-4 max-w-[520px] text-sm leading-7 text-white/80">
+        We houden het proces overzichtelijk, denken mee en nemen
+        verantwoordelijkheid voor het eindresultaat.
+      </p>
+    </div>
 
-            <div class="hidden h-14 w-14 shrink-0 items-center justify-center text-[#A8BD8A]/80 sm:flex">
-              <i data-lucide="shield-check" class="h-10 w-10"></i>
-            </div>
-          </div>
+    <div class="hidden h-14 w-14 shrink-0 items-center justify-center text-[#A8BD8A]/80 sm:flex">
+      <i data-lucide="shield-check" class="h-10 w-10"></i>
+    </div>
+  </div>
 
-          <div class="relative mt-8 border-t border-white/[.10] pt-7 before:pointer-events-none before:absolute before:left-0 before:top-0 before:h-px before:w-28 before:bg-gradient-to-r before:from-[#A8BD8A]/42 before:to-transparent">
+          <div class="relative mt-8 border-t border-white/[.10] pt-7 before:pointer-events-none before:absolute before:left-0 before:top-0 before:h-px before:w-28 before:bg-[#A8BD8A]/42">
             <div class="space-y-5">
               <div class="grid gap-4 sm:grid-cols-[2.5rem_1fr] sm:items-start">
-                <span class="flex h-10 w-10 items-center justify-center text-[#A8BD8A]/76">
-                  <i data-lucide="messages-square" class="h-7 w-7"></i>
+                <span class="flex h-10 w-10 items-center justify-center text-[#A8BD8A]">
+                  <i data-lucide="search-check" class="h-7 w-7"></i>
                 </span>
 
                 <div>
-                  <h4 class="text-[1.2rem] font-black uppercase leading-[1.12] tracking-[-0.005em] text-white">
-                    DUIDELIJKE COMMUNICATIE
+                  <h4 class="text-[1.2rem] font-black leading-[1.12] tracking-[-0.005em] text-white">
+                    Analyse & inspectie
                   </h4>
 
-                  <p class="mt-2 max-w-[470px] text-sm leading-6 text-white/48">
-                    Je weet waar je aan toe bent. We denken mee, leggen opties uit
-                    en houden het proces overzichtelijk.
+                  <p class="mt-2 max-w-[470px] text-sm leading-6 text-white/80">
+                    We onderzoeken de situatie grondig en signaleren mogelijke knelpunten
+                    voordat we aan de slag gaan.
                   </p>
                 </div>
               </div>
 
-              <div class="h-px bg-gradient-to-r from-transparent via-white/[.10] to-transparent"></div>
+              <div class="h-px w-full bg-white/[.10]"></div>
 
               <div class="grid gap-4 sm:grid-cols-[2.5rem_1fr] sm:items-start">
-                <span class="flex h-10 w-10 items-center justify-center text-[#A8BD8A]/76">
-                  <i data-lucide="sparkles" class="h-7 w-7"></i>
+                <span class="flex h-10 w-10 items-center justify-center text-[#A8BD8A]">
+                  <i data-lucide="clipboard-list" class="h-7 w-7"></i>
                 </span>
 
                 <div>
-                  <h4 class="text-[1.2rem] font-black uppercase leading-[1.12] tracking-[-0.005em] text-white">
-                    NETJES EN BETROUWBAAR
+                  <h4 class="text-[1.2rem] font-black leading-[1.12] tracking-[-0.005em] text-white">
+                    Plan van aanpak
                   </h4>
 
-                  <p class="mt-2 max-w-[470px] text-sm leading-6 text-white/48">
-                    We werken zorgvuldig, laten de ruimte netjes achter en nemen
-                    verantwoordelijkheid voor het eindresultaat.
+                  <p class="mt-2 max-w-[470px] text-sm leading-6 text-white/80">
+                    Een duidelijke aanpak, heldere communicatie en een realistische planning
+                    zodat je precies weet waar je aan toe bent.
                   </p>
                 </div>
               </div>
 
-              <div class="h-px bg-gradient-to-r from-transparent via-white/[.10] to-transparent"></div>
+              <div class="h-px w-full bg-white/[.10]"></div>
 
               <div class="grid gap-4 sm:grid-cols-[2.5rem_1fr] sm:items-start">
-                <span class="flex h-10 w-10 items-center justify-center text-[#A8BD8A]/76">
-                  <i data-lucide="wrench" class="h-7 w-7"></i>
+                <span class="flex h-10 w-10 items-center justify-center text-[#A8BD8A]">
+                  <i data-lucide="hammer" class="h-7 w-7"></i>
                 </span>
 
                 <div>
-                  <h4 class="text-[1.2rem] font-black uppercase leading-[1.12] tracking-[-0.005em] text-white">
-                    BREED INZETBAAR
+                  <h4 class="text-[1.2rem] font-black leading-[1.12] tracking-[-0.005em] text-white">
+                    Uitvoering
                   </h4>
 
-                  <p class="mt-2 max-w-[470px] text-sm leading-6 text-white/48">
-                    Van kleine reparaties tot grotere klussen: we pakken het praktisch,
-                    strak en oplossingsgericht aan.
+                  <p class="mt-2 max-w-[470px] text-sm leading-6 text-white/80">
+                    Vakkundige uitvoering met oog voor detail, hoogwaardige materialen
+                    en een strak eindresultaat.
+                  </p>
+                </div>
+              </div>
+
+              <div class="h-px w-full bg-white/[.10]"></div>
+
+              <div class="grid gap-4 sm:grid-cols-[2.5rem_1fr] sm:items-start">
+                <span class="flex h-10 w-10 items-center justify-center text-[#A8BD8A]">
+                  <i data-lucide="badge-check" class="h-7 w-7"></i>
+                </span>
+
+                <div>
+                  <h4 class="text-[1.2rem] font-black leading-[1.12] tracking-[-0.005em] text-white">
+                    Oplevering
+                  </h4>
+
+                  <p class="mt-2 max-w-[470px] text-sm leading-6 text-white/80">
+                    We controleren alles zorgvuldig en ronden het project pas af wanneer
+                    het werk volledig naar wens is uitgevoerd.
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="relative mt-7 border-t border-white/[.10] pt-7 before:pointer-events-none before:absolute before:left-0 before:top-0 before:h-px before:w-28 before:bg-gradient-to-r before:from-[#A8BD8A]/30 before:to-transparent">
-            <p class="mb-5 text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
-              In cijfers
-            </p>
+          <div class="relative mt-auto pt-7">
+            <div class="h-px w-full bg-white/[.12]"></div>
 
-            <div class="grid grid-cols-3 gap-3">
-              <div class="rounded-md border border-white/[.10] bg-white/[.055] p-4 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur-xl">
-                <div class="font-display text-[clamp(1.65rem,3vw,2.35rem)] font-light leading-none tracking-[-0.055em] text-[#A8BD8A]">
-                  10+
-                </div>
-                <div class="mt-2 text-[10px] font-black uppercase tracking-[0.16em] text-white/42">
-                  jaar
-                </div>
-              </div>
+<div class="mt-7 grid grid-cols-3 gap-2 sm:gap-3">
+  <div
+    class="group relative isolate min-w-0 overflow-hidden rounded-md border border-white/[.10]
+    bg-[radial-gradient(circle_at_20%_0%,rgba(168,189,138,0.14),transparent_38%),linear-gradient(135deg,rgba(255,255,255,0.075),rgba(255,255,255,0.032))]
+    px-2 py-4 text-center sm:px-4
+    shadow-[0_16px_48px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.10)]
+    backdrop-blur-2xl transition duration-300
+    hover:-translate-y-0.5 hover:border-[#A8BD8A]/[.38]"
+  >
+    <div class="pointer-events-none absolute inset-x-4 top-0 h-px bg-white/18"></div>
 
-              <div class="rounded-md border border-white/[.10] bg-white/[.055] p-4 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur-xl">
-                <div class="font-display text-[clamp(1.65rem,3vw,2.35rem)] font-light leading-none tracking-[-0.055em] text-[#A8BD8A]">
-                  100+
-                </div>
-                <div class="mt-2 text-[10px] font-black uppercase tracking-[0.16em] text-white/42">
-                  projecten
-                </div>
-              </div>
+    <div class="relative mx-auto mb-3 flex h-8 w-8 items-center justify-center rounded-md bg-[#101511]/70 text-[#A8BD8A] shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] sm:h-9 sm:w-9">
+      <i data-lucide="shield-check" class="h-4 w-4 sm:h-5 sm:w-5"></i>
+    </div>
 
-              <div class="rounded-md border border-white/[.10] bg-white/[.055] p-4 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur-xl">
-                <div class="font-display text-[clamp(1.65rem,3vw,2.35rem)] font-light leading-none tracking-[-0.055em] text-[#A8BD8A]">
-                  100%
-                </div>
-                <div class="mt-2 text-[10px] font-black uppercase tracking-[0.16em] text-white/42">
-                  inzet
-                </div>
-              </div>
-            </div>
-          </div>
+    <p class="break-words text-[10px] font-black leading-tight tracking-[-0.02em] text-white sm:text-[15px]">
+      100%
+    </p>
 
-          <div class="relative mt-auto pt-7 before:pointer-events-none before:absolute before:left-0 before:top-0 before:h-px before:w-28 before:bg-gradient-to-r before:from-[#A8BD8A]/30 before:to-transparent">
-            <div class="h-px w-full bg-gradient-to-r from-transparent via-white/[.12] to-[#A8BD8A]/26"></div>
+    <p class="mt-2 break-words text-[10px] font-black uppercase leading-tight tracking-[-0.02em] text-[#A8BD8A] sm:text-[9px] sm:tracking-[0.18em]">
+      betrouwbaar
+    </p>
+  </div>
 
-            <div class="mt-7 flex justify-start">
-              <a
-                href="#offerte"
-                class="group relative isolate inline-flex items-center justify-center overflow-hidden rounded-md
-                bg-[linear-gradient(120deg,#3E5B32_0%,#58773F_28%,#7F9A61_48%,#4F6F3A_68%,#243D1E_100%)]
-                bg-[length:240%_240%] px-5 py-3 text-[13px] font-black text-white
-                shadow-[0_16px_42px_rgba(47,74,39,.34)]
-                transition duration-300 hover:-translate-y-0.5 hover:animate-gradientShift
-                hover:shadow-[0_22px_58px_rgba(47,74,39,.42)]"
-              >
-                <span class="relative z-10 flex items-center gap-2">
-                  <i data-lucide="send" class="h-4 w-4"></i>
-                  OFFERTE AANVRAGEN
-                  <i data-lucide="arrow-up-right" class="h-4 w-4 transition duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i>
-                </span>
-              </a>
-            </div>
+  <div
+    class="group relative isolate min-w-0 overflow-hidden rounded-md border border-white/[.10]
+    bg-[radial-gradient(circle_at_20%_0%,rgba(168,189,138,0.14),transparent_38%),linear-gradient(135deg,rgba(255,255,255,0.075),rgba(255,255,255,0.032))]
+    px-2 py-4 text-center sm:px-4
+    shadow-[0_16px_48px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.10)]
+    backdrop-blur-2xl transition duration-300
+    hover:-translate-y-0.5 hover:border-[#A8BD8A]/[.38]"
+  >
+    <div class="pointer-events-none absolute inset-x-4 top-0 h-px bg-white/18"></div>
+
+    <div class="relative mx-auto mb-3 flex h-8 w-8 items-center justify-center rounded-md bg-[#101511]/70 text-[#A8BD8A] shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] sm:h-9 sm:w-9">
+      <i data-lucide="sparkles" class="h-4 w-4 sm:h-5 sm:w-5"></i>
+    </div>
+
+    <p class="break-words text-[10px] font-black leading-tight tracking-[-0.02em] text-white sm:text-[15px]">
+      10+
+    </p>
+
+    <p class="mt-2 break-words text-[10px] font-black uppercase leading-tight tracking-[-0.02em] text-[#A8BD8A] sm:text-[9px] sm:tracking-[0.18em]">
+      jaar ervaring
+    </p>
+  </div>
+
+  <div
+    class="group relative isolate min-w-0 overflow-hidden rounded-md border border-white/[.10]
+    bg-[radial-gradient(circle_at_20%_0%,rgba(168,189,138,0.14),transparent_38%),linear-gradient(135deg,rgba(255,255,255,0.075),rgba(255,255,255,0.032))]
+    px-2 py-4 text-center sm:px-4
+    shadow-[0_16px_48px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.10)]
+    backdrop-blur-2xl transition duration-300
+    hover:-translate-y-0.5 hover:border-[#A8BD8A]/[.38]"
+  >
+    <div class="pointer-events-none absolute inset-x-4 top-0 h-px bg-white/18"></div>
+
+    <div class="relative mx-auto mb-3 flex h-8 w-8 items-center justify-center rounded-md bg-[#101511]/70 text-[#A8BD8A] shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] sm:h-9 sm:w-9">
+      <i data-lucide="badge-check" class="h-4 w-4 sm:h-5 sm:w-5"></i>
+    </div>
+
+    <p class="break-words text-[10px] font-black leading-tight tracking-[-0.02em] text-white sm:text-[15px]">
+      100+
+    </p>
+
+    <p class="mt-2 break-words text-[10px] font-black uppercase leading-tight tracking-[-0.02em] text-[#A8BD8A] sm:text-[9px] sm:tracking-[0.18em]">
+      projecten
+    </p>
+  </div>
+</div>
           </div>
         </div>
       </div>
