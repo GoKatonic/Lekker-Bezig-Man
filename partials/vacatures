@@ -1,0 +1,410 @@
+<section
+  id="vacatures"
+  class="relative isolate overflow-hidden py-20 text-white sm:py-24 lg:py-32
+  bg-[radial-gradient(circle_at_16%_10%,rgba(255,255,255,0.045),transparent_28%),radial-gradient(circle_at_78%_18%,rgba(95,127,69,0.18),transparent_34%),radial-gradient(circle_at_52%_96%,rgba(72,102,54,0.13),transparent_42%),linear-gradient(145deg,#0E1213_0%,#171D1D_26%,#253027_48%,#171D1B_72%,#090C0D_100%)]"
+>
+  <div class="pointer-events-none absolute inset-x-0 top-0 z-0 h-52 bg-gradient-to-b from-black/[.38] via-black/[.14] to-transparent"></div>
+  <div class="pointer-events-none absolute inset-x-0 bottom-0 z-0 h-64 bg-gradient-to-t from-black/[.52] via-black/[.18] to-transparent"></div>
+
+  <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+    <div
+      class="absolute inset-0 opacity-[0.34]
+      bg-[linear-gradient(rgba(255,255,255,0.115)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.115)_1px,transparent_1px)]
+      [background-size:72px_72px]"
+    ></div>
+
+    <div
+      class="absolute inset-0 opacity-[0.20]
+      bg-[linear-gradient(rgba(255,255,255,0.085)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.085)_1px,transparent_1px)]
+      [background-size:18px_18px]"
+    ></div>
+
+    <div
+      class="absolute inset-0
+      bg-[radial-gradient(circle_at_center,transparent_0%,transparent_56%,rgba(31,36,42,0.04)_82%,rgba(31,36,42,0.10)_100%)]"
+    ></div>
+  </div>
+
+  <!-- Glow spots -->
+  <div class="pointer-events-none absolute right-[-18%] top-[10%] z-0 h-[620px] w-[620px] rounded-full bg-[#A8BD8A]/[.18] blur-[140px]"></div>
+
+  <div class="pointer-events-none absolute left-[-12%] top-[28%] z-0 h-[520px] w-[520px] rounded-full bg-[#A8BD8A]/[.12] blur-[150px]"></div>
+
+  <div class="pointer-events-none absolute right-[18%] bottom-[18%] z-0 h-[460px] w-[460px] rounded-full bg-[#5F7F45]/[.14] blur-[135px]"></div>
+
+  <div class="pointer-events-none absolute left-[30%] top-[52%] z-0 h-[380px] w-[380px] rounded-full bg-[#A8BD8A]/[.10] blur-[130px]"></div>
+
+  <div class="pointer-events-none absolute left-[-16%] bottom-[-18%] z-0 h-[520px] w-[520px] rounded-full bg-white/[.08] blur-[130px]"></div>
+
+  <div class="relative z-10 mx-auto w-full max-w-[1360px] px-6 sm:px-10 lg:px-16 xl:px-20">
+    <div class="mx-auto max-w-[1180px] text-center">
+      <h2
+        class="font-display text-[clamp(2.8rem,5.4vw,6rem)] font-light leading-[0.88] tracking-[-0.075em]
+        bg-[linear-gradient(115deg,#415438_0%,#5E7152_10%,#AAB5A0_24%,#E1E0D7_40%,#FFFDF8_52%,#E6E4DB_64%,#B0BAA6_80%,#66785A_92%,#415438_100%)]
+        bg-clip-text text-transparent"
+      >
+        WERKEN BIJ ONS
+      </h2>
+
+      <p class="mx-auto mt-7 max-w-[760px] text-base leading-8 text-white/68">
+        Doe je mee aan onze missie? Wij zoeken superhelden om ons team uit te breiden.
+        Ben jij handig, betrouwbaar en trots op strak werk? Dan hebben wij misschien
+        een plek voor jou.
+      </p>
+    </div>
+
+    <div class="mt-16 grid gap-10 lg:grid-cols-2 lg:items-stretch xl:gap-12">
+
+<!-- Left image / info card -->
+<div
+  class="relative flex h-full flex-col overflow-hidden rounded-md border border-white/10
+  bg-[linear-gradient(135deg,rgba(255,255,255,0.07),rgba(255,255,255,0.032))]
+  shadow-[0_22px_70px_rgba(0,0,0,0.22),inset_0_1px_0_rgba(255,255,255,0.10)]
+  backdrop-blur-2xl"
+>
+  <div class="pointer-events-none absolute inset-x-10 top-0 z-30 h-px bg-white/18"></div>
+
+<div class="group relative h-[440px] overflow-hidden sm:h-[500px] lg:h-[550px]">
+    <img
+      src="assets/vacatures.png"
+      alt="Vacatures bij Lekker Bezig Man"
+      class="h-full w-full object-cover object-center opacity-[.92] transition duration-700 group-hover:scale-105"
+    >
+  </div>
+
+  <div class="relative z-10 -mt-8 flex flex-col px-7 pb-8 pt-12 sm:px-9 sm:pb-9 sm:pt-14 lg:px-10 lg:pb-10 lg:pt-16">
+    <div class="border-b border-white/[.10] pb-7">
+      <p class="text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
+        Onze missie
+      </p>
+
+      <h3 class="mt-3 text-[1.45rem] font-black uppercase leading-[1.06] tracking-[-0.02em] text-white">
+        Samen bouwen aan kwaliteit
+      </h3>
+
+      <p class="mt-5 max-w-[560px] text-[14px] leading-6 text-white/58">
+        Wij zoeken mensen die niet alleen komen werken, maar willen meebouwen.
+        Vakmensen die overzicht houden, verantwoordelijkheid nemen en elke klus
+        netjes willen achterlaten.
+      </p>
+    </div>
+
+    <div class="border-b border-white/[.10] py-7">
+      <div class="grid gap-5 sm:grid-cols-[3.25rem_1fr] sm:items-start">
+        <div class="flex h-13 w-13 items-center justify-center text-[#A8BD8A]/80">
+          <i data-lucide="shield-check" class="h-10 w-10"></i>
+        </div>
+
+        <div class="min-w-0 text-left sm:text-right">
+          <p class="text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
+            Wie wij zoeken
+          </p>
+
+          <p class="mt-3 ml-auto max-w-[420px] text-[13px] leading-5 text-white/58 sm:text-right">
+            Handige aanpakkers met oog voor detail. Ervaring is mooi meegenomen,
+            maar motivatie, betrouwbaarheid en netjes werken zijn minstens zo belangrijk.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trust badges -->
+    <div class="pt-7">
+      <p class="mb-4 text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
+        Wat bieden wij?
+      </p>
+
+      <div class="grid grid-cols-3 gap-2 sm:gap-3">
+  <div
+    class="group relative isolate min-w-0 overflow-hidden rounded-md border border-white/[.10]
+    bg-[radial-gradient(circle_at_20%_0%,rgba(168,189,138,0.14),transparent_38%),linear-gradient(135deg,rgba(255,255,255,0.075),rgba(255,255,255,0.032))]
+    px-2 py-3 text-center sm:px-3
+    shadow-[0_16px_48px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.10)]
+    backdrop-blur-2xl transition duration-300
+    hover:-translate-y-0.5 hover:border-[#A8BD8A]/[.38]"
+  >
+    <div class="pointer-events-none absolute inset-x-4 top-0 h-px bg-white/18"></div>
+
+    <div class="relative mx-auto mb-2 flex h-8 w-8 items-center justify-center rounded-md bg-[#101511]/70 text-[#A8BD8A] shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
+      <i data-lucide="badge-euro" class="h-4 w-4"></i>
+    </div>
+
+    <p class="break-words text-[10px] font-black leading-tight tracking-[-0.02em] text-white sm:text-[14px]">
+      Goed
+    </p>
+
+    <p class="mt-1.5 break-words text-[9px] font-black uppercase leading-tight tracking-[0.14em] text-[#A8BD8A]">
+      salaris
+    </p>
+  </div>
+
+  <div
+    class="group relative isolate min-w-0 overflow-hidden rounded-md border border-white/[.10]
+    bg-[radial-gradient(circle_at_20%_0%,rgba(168,189,138,0.14),transparent_38%),linear-gradient(135deg,rgba(255,255,255,0.075),rgba(255,255,255,0.032))]
+    px-2 py-3 text-center sm:px-3
+    shadow-[0_16px_48px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.10)]
+    backdrop-blur-2xl transition duration-300
+    hover:-translate-y-0.5 hover:border-[#A8BD8A]/[.38]"
+  >
+    <div class="pointer-events-none absolute inset-x-4 top-0 h-px bg-white/18"></div>
+
+    <div class="relative mx-auto mb-2 flex h-8 w-8 items-center justify-center rounded-md bg-[#101511]/70 text-[#A8BD8A] shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
+      <i data-lucide="clock-3" class="h-4 w-4"></i>
+    </div>
+
+    <p class="break-words text-[10px] font-black leading-tight tracking-[-0.02em] text-white sm:text-[14px]">
+      Flexibele
+    </p>
+
+    <p class="mt-1.5 break-words text-[9px] font-black uppercase leading-tight tracking-[0.14em] text-[#A8BD8A]">
+      uren
+    </p>
+  </div>
+
+  <div
+    class="group relative isolate min-w-0 overflow-hidden rounded-md border border-white/[.10]
+    bg-[radial-gradient(circle_at_20%_0%,rgba(168,189,138,0.14),transparent_38%),linear-gradient(135deg,rgba(255,255,255,0.075),rgba(255,255,255,0.032))]
+    px-2 py-3 text-center sm:px-3
+    shadow-[0_16px_48px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.10)]
+    backdrop-blur-2xl transition duration-300
+    hover:-translate-y-0.5 hover:border-[#A8BD8A]/[.38]"
+  >
+    <div class="pointer-events-none absolute inset-x-4 top-0 h-px bg-white/18"></div>
+
+    <div class="relative mx-auto mb-2 flex h-8 w-8 items-center justify-center rounded-md bg-[#101511]/70 text-[#A8BD8A] shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
+      <i data-lucide="trending-up" class="h-4 w-4"></i>
+    </div>
+
+    <p class="break-words text-[10px] font-black leading-tight tracking-[-0.02em] text-white sm:text-[14px]">
+      Professionele
+    </p>
+
+    <p class="mt-1.5 break-words text-[9px] font-black uppercase leading-tight tracking-[0.14em] text-[#A8BD8A]">
+      ontwikkeling
+    </p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+      <!-- Right form card -->
+      <div
+        class="relative h-full overflow-hidden rounded-md border border-white/10
+        bg-[linear-gradient(135deg,rgba(255,255,255,0.07),rgba(255,255,255,0.032))]
+        p-6 shadow-[0_22px_70px_rgba(0,0,0,0.22),inset_0_1px_0_rgba(255,255,255,0.10)]
+        backdrop-blur-2xl sm:p-8"
+      >
+        <div class="pointer-events-none absolute inset-x-10 top-0 z-30 h-px bg-white/18"></div>
+
+        <form class="relative z-10 flex h-full flex-col" action="#" method="post" enctype="multipart/form-data">
+          <div class="flex items-start justify-between gap-5">
+            <div class="max-w-[560px]">
+              <p class="text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
+                Sollicitatieformulier
+              </p>
+
+              <h3 class="mt-2 text-[1.5rem] font-black uppercase leading-[1.12] tracking-[-0.005em] text-white">
+                SLUIT JE AAN BIJ DE MISSIE
+              </h3>
+
+              <p class="mt-3 max-w-[520px] text-sm leading-7 text-white/54">
+                Vertel kort wie je bent, waar je goed in bent en welke ervaring je meebrengt.
+                Voeg gerust je CV, motivatiebrief, diploma’s of certificaten toe.
+              </p>
+            </div>
+
+            <div class="hidden h-14 w-14 shrink-0 items-center justify-center text-[#A8BD8A]/80 sm:flex">
+              <i data-lucide="user-plus" class="h-10 w-10"></i>
+            </div>
+          </div>
+
+         <div class="mt-8 grid gap-5 sm:grid-cols-2">
+  <label class="group block">
+    <span class="mb-3 block text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
+      Naam
+    </span>
+
+    <div class="relative">
+      <div
+        class="pointer-events-none absolute inset-0 rounded-md
+        ring-1 ring-white/[.08]
+        transition duration-500 ease-out
+        group-hover:ring-[#A8BD8A]/45
+        group-focus-within:ring-[#A8BD8A]/62
+        group-hover:shadow-[0_0_0_1px_rgba(168,189,138,0.16),0_0_14px_rgba(168,189,138,0.20),0_0_26px_rgba(95,127,69,0.14)]
+        group-focus-within:shadow-[0_0_0_1px_rgba(168,189,138,0.26),0_0_20px_rgba(168,189,138,0.26),0_0_36px_rgba(95,127,69,0.18)]"
+      ></div>
+
+      <input
+        type="text"
+        name="name"
+        placeholder="Je naam"
+        class="relative z-10 w-full rounded-md border border-white/[.08]
+        bg-white/[.045] px-4 py-4 text-sm font-medium text-white
+        shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]
+        outline-none backdrop-blur-xl placeholder:text-white/35
+        transition duration-500 ease-out
+        hover:border-[#A8BD8A]/24 hover:bg-white/[.055]
+        focus:border-[#A8BD8A]/42 focus:bg-white/[.06] focus:ring-0"
+      >
+    </div>
+  </label>
+
+  <label class="group block">
+    <span class="mb-3 block text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
+      Telefoon
+    </span>
+
+    <div class="relative">
+      <div
+        class="pointer-events-none absolute inset-0 rounded-md
+        ring-1 ring-white/[.08]
+        transition duration-500 ease-out
+        group-hover:ring-[#A8BD8A]/45
+        group-focus-within:ring-[#A8BD8A]/62
+        group-hover:shadow-[0_0_0_1px_rgba(168,189,138,0.16),0_0_14px_rgba(168,189,138,0.20),0_0_26px_rgba(95,127,69,0.14)]
+        group-focus-within:shadow-[0_0_0_1px_rgba(168,189,138,0.26),0_0_20px_rgba(168,189,138,0.26),0_0_36px_rgba(95,127,69,0.18)]"
+      ></div>
+
+      <input
+        type="tel"
+        name="phone"
+        placeholder="06 ..."
+        class="relative z-10 w-full rounded-md border border-white/[.08]
+        bg-white/[.045] px-4 py-4 text-sm font-medium text-white
+        shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]
+        outline-none backdrop-blur-xl placeholder:text-white/35
+        transition duration-500 ease-out
+        hover:border-[#A8BD8A]/24 hover:bg-white/[.055]
+        focus:border-[#A8BD8A]/42 focus:bg-white/[.06] focus:ring-0"
+      >
+    </div>
+  </label>
+
+  <label class="group block sm:col-span-2">
+    <span class="mb-3 block text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
+      E-mail
+    </span>
+
+    <div class="relative">
+      <div
+        class="pointer-events-none absolute inset-0 rounded-md
+        ring-1 ring-white/[.08]
+        transition duration-500 ease-out
+        group-hover:ring-[#A8BD8A]/45
+        group-focus-within:ring-[#A8BD8A]/62
+        group-hover:shadow-[0_0_0_1px_rgba(168,189,138,0.16),0_0_14px_rgba(168,189,138,0.20),0_0_26px_rgba(95,127,69,0.14)]
+        group-focus-within:shadow-[0_0_0_1px_rgba(168,189,138,0.26),0_0_20px_rgba(168,189,138,0.26),0_0_36px_rgba(95,127,69,0.18)]"
+      ></div>
+
+      <input
+        type="email"
+        name="email"
+        placeholder="jouw@email.nl"
+        class="relative z-10 w-full rounded-md border border-white/[.08]
+        bg-white/[.045] px-4 py-4 text-sm font-medium text-white
+        shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]
+        outline-none backdrop-blur-xl placeholder:text-white/35
+        transition duration-500 ease-out
+        hover:border-[#A8BD8A]/24 hover:bg-white/[.055]
+        focus:border-[#A8BD8A]/42 focus:bg-white/[.06] focus:ring-0"
+      >
+    </div>
+  </label>
+</div>
+
+<div class="mt-7 border-t border-white/[.10] pt-7">
+  <label class="group block">
+    <span class="mb-3 block text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
+      Waar ben je goed in?
+    </span>
+
+    <div class="relative">
+      <div
+        class="pointer-events-none absolute inset-0 rounded-md
+        ring-1 ring-white/[.08]
+        transition duration-500 ease-out
+        group-hover:ring-[#A8BD8A]/45
+        group-focus-within:ring-[#A8BD8A]/62
+        group-hover:shadow-[0_0_0_1px_rgba(168,189,138,0.16),0_0_14px_rgba(168,189,138,0.20),0_0_26px_rgba(95,127,69,0.14)]
+        group-focus-within:shadow-[0_0_0_1px_rgba(168,189,138,0.26),0_0_20px_rgba(168,189,138,0.26),0_0_36px_rgba(95,127,69,0.18)]"
+      ></div>
+
+      <textarea
+        name="experience"
+        rows="5"
+        placeholder="Bijvoorbeeld dakwerk, schilderwerk, renovatie, onderhoud, houtrotreparatie of algemeen kluswerk..."
+        class="relative z-10 block min-h-[160px] w-full resize-none rounded-md border border-white/[.08]
+        bg-white/[.045] px-4 py-4 text-sm font-medium text-white
+        shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]
+        outline-none backdrop-blur-xl placeholder:text-white/35
+        transition duration-500 ease-out
+        hover:border-[#A8BD8A]/34 hover:bg-white/[.06]
+        focus:border-[#A8BD8A]/50 focus:bg-white/[.065] focus:ring-0"
+      ></textarea>
+    </div>
+  </label>
+</div>
+
+          <div class="mt-7 border-t border-white/[.10] pt-7">
+            <p class="mb-4 text-[10px] font-black uppercase tracking-[0.22em] text-[#A8BD8A]">
+              Bestanden toevoegen
+            </p>
+
+            <label
+              class="group flex cursor-pointer flex-col items-center justify-center rounded-md border border-dashed border-white/[.16]
+              bg-white/[.04] px-5 py-8 text-center backdrop-blur-xl transition duration-500 ease-out
+              hover:border-[#A8BD8A]/45 hover:bg-white/[.055]
+              hover:shadow-[0_0_0_1px_rgba(168,189,138,0.16),0_0_24px_rgba(168,189,138,0.16)]"
+            >
+              <input
+                type="file"
+                name="attachments[]"
+                multiple
+                accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.webp"
+                class="hidden"
+              >
+
+              <span class="flex h-14 w-14 items-center justify-center rounded-md bg-white/[.055] text-[#A8BD8A]">
+                <i data-lucide="paperclip" class="h-8 w-8"></i>
+              </span>
+
+              <span class="mt-4 block text-sm font-bold text-white">
+                Upload je CV, foto, motivatiebrief of certificaten
+              </span>
+
+              <span class="mt-2 block max-w-[460px] text-xs leading-5 text-white/42">
+                Je kunt meerdere bestanden toevoegen, zoals diploma’s, referenties,
+                portfoliofoto’s of andere documenten.
+              </span>
+            </label>
+          </div>
+
+          <div class="mt-7 border-t border-white/[.10] pt-7">
+            <button
+              type="submit"
+              class="group relative isolate inline-flex w-full items-center justify-center overflow-hidden rounded-md
+              bg-[linear-gradient(120deg,#3E5B32_0%,#58773F_28%,#7F9A61_48%,#4F6F3A_68%,#243D1E_100%)]
+              bg-[length:240%_240%] px-6 py-4 text-[13px] font-black uppercase tracking-[0.16em] text-white
+              shadow-[0_16px_42px_rgba(47,74,39,.34)]
+              transition duration-300 hover:-translate-y-0.5 hover:animate-gradientShift
+              hover:shadow-[0_22px_58px_rgba(47,74,39,.42)]"
+            >
+              <span class="relative z-10 flex items-center gap-2">
+                <i data-lucide="rocket" class="h-4 w-4"></i>
+                Missie meedoen
+              </span>
+              <span class="relative z-10 ml-2 transition duration-300 group-hover:translate-x-1">→</span>
+            </button>
+
+            <p class="mt-4 text-center text-xs leading-5 text-white/38">
+              Wij bekijken je bericht zorgvuldig en nemen zo snel mogelijk contact met je op.
+            </p>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
