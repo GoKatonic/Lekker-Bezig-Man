@@ -1,54 +1,46 @@
-<!-- Footer -->
-<footer class="relative isolate overflow-hidden bg-[#111417] text-white">
-  <!-- Premium dark background -->
+<footer
+  class="relative z-40 w-full border-t border-white/10
+  bg-[#1F242A]/95 shadow-[0_-14px_50px_rgba(0,0,0,0.22)] backdrop-blur-2xl"
+>
   <div
-    class="pointer-events-none absolute inset-0
-    bg-[radial-gradient(circle_at_18%_0%,rgba(168,189,138,0.10),transparent_30%),linear-gradient(135deg,#111417_0%,#191E22_55%,#0E1114_100%)]"
-  ></div>
+    class="mx-auto flex min-h-[78px] w-full max-w-[1360px] flex-col items-center justify-center gap-5
+    px-6 py-5 text-center sm:px-10 lg:h-[78px] lg:flex-row lg:justify-between lg:px-16 lg:py-0 lg:text-left xl:px-20"
+  >
+    <!-- Left: Logo + Brand -->
+    <div class="flex flex-col items-center justify-center gap-3 lg:flex-row lg:justify-start lg:text-left">
+      <img
+        src="assets/logo.jpg"
+        alt="LekkerBezigMan"
+        class="h-14 w-auto opacity-90
+        [filter:brightness(0)_saturate(100%)_invert(80%)_sepia(12%)_saturate(598%)_hue-rotate(41deg)_brightness(92%)_contrast(88%)]"
+      >
 
-  <!-- Top accent line -->
-  <div class="relative h-px w-full bg-gradient-to-r from-transparent via-[#A8BD8A]/30 to-transparent"></div>
+      <p class="font-black text-[#A8BD8A]">
+        <span class="block text-[15px] font-semibold uppercase leading-5 tracking-[0.12em]">
+          LEKKERBEZIGMAN
+        </span>
 
-  <div class="relative mx-auto max-w-[1360px] px-6 py-7 sm:px-10 lg:px-16 xl:px-20">
-    <div class="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+        <span class="block text-[9px] font-medium uppercase leading-4 tracking-[0.20em] text-white/60">
+          Van gedoe naar gedaan
+        </span>
+      </p>
+    </div>
 
-      <!-- Brand -->
-      <div class="flex items-center gap-4">
-        <div
-          class="grid h-14 w-14 shrink-0 place-items-center rounded-2xl
-          bg-[linear-gradient(135deg,rgba(168,189,138,0.13),rgba(255,255,255,0.04))]
-          shadow-[0_14px_38px_rgba(0,0,0,0.24),inset_0_1px_0_rgba(255,255,255,0.10)]"
-        >
-          <img
-            src="assets/logo.jpg"
-            alt="Lekker Bezig Man"
-            class="h-10 w-10 object-contain brightness-0 saturate-100
-            [filter:invert(55%)_sepia(18%)_saturate(842%)_hue-rotate(47deg)_brightness(88%)_contrast(88%)]"
-          >
-        </div>
+    <!-- Right: Credits -->
+    <div class="w-full max-w-[320px] font-black uppercase text-center lg:w-[320px] lg:text-right">
+      <p class="flex flex-wrap items-center justify-center gap-2 text-[9px] font-medium leading-4 tracking-[0.20em] text-[#A8BD8A] lg:justify-end">
+        <span>Website</span>
+        <span>ontworpen</span>
+        <span>door</span>
+        <span>Katja</span>
+        <span>Kok</span>
+      </p>
 
-        <div>
-          <p class="text-[11px] font-black uppercase tracking-[0.24em] text-[#A8BD8A]">
-            Lekker Bezig Man
-          </p>
-
-          <p class="mt-1.5 text-sm text-white/45">
-            Van gedoe naar gedaan
-          </p>
-        </div>
+      <div class="mt-1 flex items-center justify-center text-[13px] font-semibold leading-5 tracking-[0.12em] text-white/60 lg:justify-end">
+        <span>Digital Solutions B.V.</span>
+        <span class="mx-2">|</span>
+        <span>2026</span>
       </div>
-
-      <!-- Meta -->
-      <div class="flex flex-col gap-1 text-left sm:text-right">
-        <p class="text-xs font-semibold text-white/44">
-          © 2026 Lekker Bezig Man
-        </p>
-
-        <p class="text-xs text-white/32">
-          Website gerealiseerd door <span class="font-bold text-[#A8BD8A]/75">Katja</span>
-        </p>
-      </div>
-
     </div>
   </div>
 </footer>
